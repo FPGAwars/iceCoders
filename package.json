@@ -2,6 +2,9 @@
   "name": "icecoders",
   "version": "0.1.0",
   "description": "Collection with encoders and decoders",
+  "header": "https://github.com/FPGAwars/iceCoders/raw/main/wiki/Logo/iceCoders-collection-github.png",
+  "footer": "https://github.com/FPGAwars/iceCoders/raw/main/wiki/Logo/iceCoders-banner.svg",
+  "wiki": "https://github.com/FPGAwars/iceCoders/wiki",
   "keywords": ["encoder","decoder"],
   "license": "GPL-2.0",
   "authors": [{

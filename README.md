@@ -1,3 +1,4 @@
+[![](https://github.com/FPGAwars/iceCoders/raw/main/wiki/Logo/iceCoders-collection-github.png)](https://github.com/FPGAwars/iceCoders/wiki)
 
 
 # icecoders Collection
@@ -7,6 +8,8 @@
 
 
 Collection with encoders and decoders
+## Documentation
+Find all the information on the [WIKI page](https://github.com/FPGAwars/iceCoders/wiki)  
 
 
 ## License
@@ -21,8 +24,81 @@ For installing and using this colection in Icestudio follow these steps:
 * Install the collection: *Tools > Collections > Add*
 * Select the collection: *Select > Collection*
 
+## Translations
+| Language | Locale | Translated strings |
+|----------|--------|--------------------|
+| English  |  en    | ![](https://progress-bar.dev/100) |
+| Spanish |  es_ES | ![](https://progress-bar.dev/0) |
 
+## Blocks
+* **Decoders**
+  * **Decod-1-2**
+    * Decod-1-2-bus-neg
+    * Decod-1-2-bus
+    * Decod-1-2-neg
+    * Decod-1-2-verilog
+    * Decod-1-2
+  * **Decod-2-4**
+    * Decod-2-4-bus-neg
+    * Decod-2-4-bus
+    * Decod-2-4-neg
+    * Decod-2-4
+  * **Decod-3-8**
+    * Decod-3-8-bus-neg
+    * Decod-3-8-bus
+    * Decod-3-8-neg
+    * Decod-3-8
+* **Encoders**
+  * **Encoders-2-1**
+    * encoder-2-1
 
+## Examples
+* 00-Index
+* **TESTs**
+  * **Decoders**
+    * **01-bit**
+      * **decoder-1-2**
+      * **decoder-1-2-bus**
+      * **decoder-1-2-bus-neg**
+        * **Alhambra-II**
+          * 01-manual-testing
+        * **Alhambra-II**
+          * 01-manual-testing
+      * **decoder-1-2-neg**
+        * **Alhambra-II**
+          * 01-manual-testing
+        * **Alhambra-II**
+          * 01-manual-testing
+    * **02-bits**
+      * **decoder-2-4**
+      * **decoder-2-4-bus**
+      * **decoder-2-4-bus-neg**
+        * **Alhambra-II**
+          * 01-manual-testing
+        * **Alhambra-II**
+          * 01-manual-testing
+      * **decoder-2-4-neg**
+        * **Alhambra-II**
+          * 01-manual-testing
+        * **Alhambra-II**
+          * 01-manual-testing
+    * **03-bits**
+      * **decoder-3-8**
+      * **decoder-3-8-bus**
+      * **decoder-3-8-bus-neg**
+        * **Alhambra-II**
+          * 01-manual-testing
+        * **Alhambra-II**
+          * 01-manual-testing
+      * **decoder-3-8-neg**
+        * 01-manual-testing
+        * **Alhambra-II**
+          * 01-manual-testing
+  * **Encoders**
+    * **encoder-2-1**
+      * **enconder-2-1**
+        * **Alhambra-II**
+          * 01-manual-testing
 
 ## Authors
 * [Juan Gonzalez-Gomez (Obijuan)](https://github.com/Obijuan)
@@ -30,6 +106,7 @@ For installing and using this colection in Icestudio follow these steps:
 
 
 -------
+![](https://github.com/FPGAwars/iceCoders/raw/main/wiki/Logo/iceCoders-banner.svg)
 
 
 <!-- Badges -->
