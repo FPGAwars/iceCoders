@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-14 15:56+0000\n"
+"POT-Creation-Date: 2022-05-14 16:27+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -305,7 +305,7 @@ msgid ""
 msgstr ""
 
 #: translation.js:71
-msgid "01-encoder-2-1"
+msgid "01-Encoder-2-1"
 msgstr ""
 
 #: translation.js:72
@@ -388,7 +388,7 @@ msgid "Alhambra-II"
 msgstr ""
 
 #: translation.js:91
-msgid "01-enconder-2-1-buttons-LEDs"
+msgid "01-Enconder-2-1-buttons-LEDs"
 msgstr ""
 
 #: translation.js:92
