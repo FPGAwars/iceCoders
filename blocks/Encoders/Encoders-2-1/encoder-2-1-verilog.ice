@@ -16,15 +16,7 @@
           "id": "b97337fb-2814-484d-b9d7-ff9aebe4de2b",
           "type": "basic.output",
           "data": {
-            "name": "out",
-            "virtual": false,
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED7",
-                "value": "37"
-              }
-            ]
+            "name": "out"
           },
           "position": {
             "x": 1192,
@@ -36,14 +28,6 @@
           "type": "basic.input",
           "data": {
             "name": "1",
-            "virtual": false,
-            "pins": [
-              {
-                "index": "0",
-                "name": "SW1",
-                "value": "34"
-              }
-            ],
             "clock": false
           },
           "position": {
@@ -55,15 +39,7 @@
           "id": "1492dc34-4c69-48c3-87fd-2da6f77b0e3f",
           "type": "basic.output",
           "data": {
-            "name": "nz",
-            "virtual": false,
-            "pins": [
-              {
-                "index": "0",
-                "name": "LED0",
-                "value": "45"
-              }
-            ]
+            "name": "nz"
           },
           "position": {
             "x": 1192,
@@ -75,14 +51,6 @@
           "type": "basic.input",
           "data": {
             "name": "0",
-            "virtual": false,
-            "pins": [
-              {
-                "index": "0",
-                "name": "SW2",
-                "value": "33"
-              }
-            ],
             "clock": false
           },
           "position": {
@@ -113,7 +81,7 @@
               ]
             },
             "params": [],
-            "code": "//-- 2-1 Enconcer\nassign out = i1;\n\nassign nz = i1 | i0;"
+            "code": "//-- 2-1 Encoder\nassign out = i1;\n\nassign nz = i1 | i0;"
           },
           "position": {
             "x": 816,
