@@ -50,6 +50,7 @@ For installing and using this colection in Icestudio follow these steps:
     * Decod-3-8
 * **Encoders**
   * **Encoders-2-1**
+    * encoder-2-1-verilog
     * encoder-2-1
 
 ## Examples

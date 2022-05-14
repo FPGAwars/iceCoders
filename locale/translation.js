@@ -64,6 +64,8 @@ gettext('Decod-3-8-neg');
 gettext('Decoder-3-8:  3 to 8 decoder. Outputs are active low');
 gettext('Decod-3-8');
 gettext('Encoders-2-1');
+gettext('encoder-2-1-verilog');
+gettext('A standard 2-to-1 encoder with nz (not-zero) output. Implemented in verilog');
 gettext('encoder-2-1');
 gettext('A standard 2-to-1 encoder with nz (not-zero) output');
 gettext('OR2: Two bits input OR gate');
