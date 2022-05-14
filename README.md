@@ -54,6 +54,9 @@ For installing and using this colection in Icestudio follow these steps:
 
 ## Examples
 * 00-Index
+* **01-encoder-2-1**
+  * **Alhambra-II**
+    * 01-enconder-2-1-buttons-LEDs
 * **TESTs**
   * **Decoders**
     * **01-bit**
