@@ -39,11 +39,16 @@
      inkscape:snap-nodes="false"
      inkscape:snap-others="false"
      inkscape:bbox-nodes="true"
-     inkscape:snap-global="false"
+     inkscape:snap-global="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="79.021427,48.413375"
+       orientation="1,0"
+       id="guide8612" />
+  </sodipodi:namedview>
   <defs
      id="defs2">
     <marker
@@ -575,6 +580,11 @@
          x="150.49582"
          y="89.666718"
          style="fill:#767675;fill-opacity:1;stroke-width:0.200948">nz</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path8614"
+       d="m 147.63593,70.454874 h 6.66067"
+       style="display:inline;fill:none;stroke:#777777;stroke-width:1.69824;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
   </g>
   <style
      id="style263">.st0{display:none}.st1{fill:none;stroke:#000;stroke-width:.75;stroke-linejoin:round;stroke-miterlimit:10}.st2{fill:#010002}</style>
