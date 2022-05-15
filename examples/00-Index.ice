@@ -422,6 +422,34 @@
             "width": 192,
             "height": 40
           }
+        },
+        {
+          "id": "66cc3757-efc1-41fb-b587-c5b2e68391ba",
+          "type": "c60133856c72fd8e342cce5e3c7b545866816ade",
+          "position": {
+            "x": 928,
+            "y": 328
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "afd651cd-3b00-4696-960b-db221c756782",
+          "type": "basic.info",
+          "data": {
+            "info": "**Encoder 2-1-bus**",
+            "readonly": true
+          },
+          "position": {
+            "x": 928,
+            "y": 288
+          },
+          "size": {
+            "width": 192,
+            "height": 40
+          }
         }
       ],
       "wires": []
@@ -5945,6 +5973,151 @@
               },
               "target": {
                 "block": "664caf9e-5f40-4df4-800a-b626af702e62",
+                "port": "in"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "c60133856c72fd8e342cce5e3c7b545866816ade": {
+      "package": {
+        "name": "encoder-2-1-bus",
+        "version": "0.1",
+        "description": "A 2-to-1 encoder with bus inputs and nz (not-zero) output",
+        "author": "Juan González-Gómez (Obijuan)",
+        "image": "%3Csvg%20width=%22151.747%22%20height=%2274.119%22%20viewBox=%220%200%20142.2633%2069.487129%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20d=%22M0%200h28.125v28.125H0zM0%2041.362h28.125v28.125H0zM114.138%2021.959h28.125v28.125h-28.125z%22/%3E%3Cpath%20d=%22M40.94%2027.932h37.25V14.895l24.832%2021.729L78.19%2058.353V45.316H40.94v-8.692z%22%20stroke=%22#000%22%20stroke-miterlimit=%2210%22%20pointer-events=%22all%22%20stroke-width=%22.938%22/%3E%3C/svg%3E",
+        "otid": 1652447581615
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "b97337fb-2814-484d-b9d7-ff9aebe4de2b",
+              "type": "basic.output",
+              "data": {
+                "name": "out"
+              },
+              "position": {
+                "x": 768,
+                "y": -200
+              }
+            },
+            {
+              "id": "016d246f-6ec7-4611-be71-6effdded6834",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "range": "[1:0]",
+                "clock": false,
+                "size": 2
+              },
+              "position": {
+                "x": 256,
+                "y": -112
+              }
+            },
+            {
+              "id": "1492dc34-4c69-48c3-87fd-2da6f77b0e3f",
+              "type": "basic.output",
+              "data": {
+                "name": "nz"
+              },
+              "position": {
+                "x": 768,
+                "y": -24
+              }
+            },
+            {
+              "id": "5ab3b29d-cc8e-4bee-a18f-1029b6c49559",
+              "type": "0dbcb9470111c4072304f196bb9e5ac39f4ccfb7",
+              "position": {
+                "x": 416,
+                "y": -112
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "22e4f960-e7cc-44d5-b616-589d2b7604e1",
+              "type": "45b46121e920e3d12d72c978c700771c89ce64f0",
+              "position": {
+                "x": 576,
+                "y": -112
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "aa8b0256-96c2-429f-8022-06d25d2f3b9a",
+              "type": "basic.info",
+              "data": {
+                "info": "2-1 Encoder",
+                "readonly": true
+              },
+              "position": {
+                "x": 584,
+                "y": -32
+              },
+              "size": {
+                "width": 112,
+                "height": 40
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "016d246f-6ec7-4611-be71-6effdded6834",
+                "port": "out"
+              },
+              "target": {
+                "block": "5ab3b29d-cc8e-4bee-a18f-1029b6c49559",
+                "port": "a409d207-7594-4558-8e15-89712262cf5b"
+              },
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "5ab3b29d-cc8e-4bee-a18f-1029b6c49559",
+                "port": "f5a71d7b-de20-4527-80c8-0eb20de0dc77"
+              },
+              "target": {
+                "block": "22e4f960-e7cc-44d5-b616-589d2b7604e1",
+                "port": "bccf523e-a4b1-42f4-a396-796a3fde9129"
+              }
+            },
+            {
+              "source": {
+                "block": "5ab3b29d-cc8e-4bee-a18f-1029b6c49559",
+                "port": "0f7487e5-b070-4277-bba6-acf69934afca"
+              },
+              "target": {
+                "block": "22e4f960-e7cc-44d5-b616-589d2b7604e1",
+                "port": "d9293102-2bf9-49d6-90a2-52cca5ea8023"
+              }
+            },
+            {
+              "source": {
+                "block": "22e4f960-e7cc-44d5-b616-589d2b7604e1",
+                "port": "b97337fb-2814-484d-b9d7-ff9aebe4de2b"
+              },
+              "target": {
+                "block": "b97337fb-2814-484d-b9d7-ff9aebe4de2b",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "22e4f960-e7cc-44d5-b616-589d2b7604e1",
+                "port": "1492dc34-4c69-48c3-87fd-2da6f77b0e3f"
+              },
+              "target": {
+                "block": "1492dc34-4c69-48c3-87fd-2da6f77b0e3f",
                 "port": "in"
               }
             }
