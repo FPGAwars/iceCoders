@@ -50,6 +50,7 @@ For installing and using this colection in Icestudio follow these steps:
     * Decod-3-8
 * **Encoders**
   * **Encoders-2-1**
+    * encoder-2-1-bus
     * encoder-2-1-verilog
     * encoder-2-1
 
@@ -100,6 +101,9 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-testing
   * **Encoders**
     * **encoder-2-1**
+      * **Encoder-2-1-Bus**
+        * **Alhambra-II**
+          * 01-manual-testing
       * **enconder-2-1**
         * **Alhambra-II**
           * 01-manual-testing
