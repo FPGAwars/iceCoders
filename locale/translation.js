@@ -100,6 +100,7 @@ gettext('## ENCODERS ');
 gettext('**Encoder 2-1**');
 gettext('**Encoder 2-1-bus**');
 gettext('**Encoder 2-1-neg**');
+gettext('**Encoder 2-1-bus-neg**');
 gettext('Alhambra-II');
 gettext('01-Enconder-2-1-buttons-LEDs');
 gettext('## Example: Manual testing of the 2-to-1 Encoder\n\nTwo pushbuttons are used as the inputs of the 2-to-1 enconder. The  \ncodified output (1-bit) is shown on LED7 and the nz output on LED0');
