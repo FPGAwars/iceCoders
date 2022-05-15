@@ -51,6 +51,7 @@ For installing and using this colection in Icestudio follow these steps:
 * **Encoders**
   * **Encoders-2-1**
     * encoder-2-1-bus
+    * encoder-2-1-neg
     * encoder-2-1-verilog
     * encoder-2-1
 
@@ -102,6 +103,9 @@ For installing and using this colection in Icestudio follow these steps:
   * **Encoders**
     * **encoder-2-1**
       * **Encoder-2-1-Bus**
+        * **Alhambra-II**
+          * 01-manual-testing
+      * **Encoder-2-1-neg**
         * **Alhambra-II**
           * 01-manual-testing
       * **enconder-2-1**
