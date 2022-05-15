@@ -450,6 +450,34 @@
             "width": 192,
             "height": 40
           }
+        },
+        {
+          "id": "134075ab-1939-415a-97b9-4ef29d33ca13",
+          "type": "54b780090f5f2bea0f16862dfd5baa199a8dec1b",
+          "position": {
+            "x": 1096,
+            "y": 328
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "44df9680-41a6-4878-aee8-91e25ab9db4c",
+          "type": "basic.info",
+          "data": {
+            "info": "**Encoder 2-1-neg**",
+            "readonly": true
+          },
+          "position": {
+            "x": 1088,
+            "y": 288
+          },
+          "size": {
+            "width": 192,
+            "height": 40
+          }
         }
       ],
       "wires": []
@@ -6114,6 +6142,198 @@
             {
               "source": {
                 "block": "22e4f960-e7cc-44d5-b616-589d2b7604e1",
+                "port": "1492dc34-4c69-48c3-87fd-2da6f77b0e3f"
+              },
+              "target": {
+                "block": "1492dc34-4c69-48c3-87fd-2da6f77b0e3f",
+                "port": "in"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "54b780090f5f2bea0f16862dfd5baa199a8dec1b": {
+      "package": {
+        "name": "encoder-2-1-neg",
+        "version": "0.1",
+        "description": "A 2-to-1 encoder with active low inputs and nz (not-zero) output",
+        "author": "Juan González-Gómez (Obijuan)",
+        "image": "%3Csvg%20width=%22151.747%22%20height=%2274.119%22%20viewBox=%220%200%20142.26331%2069.487136%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20transform=%22translate(167.847%20-.22)%22%3E%3Cpath%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20d=%22M-167.847.22h28.125v28.125h-28.125zM-167.847%2041.582h28.125v28.125h-28.125zM-53.709%2022.179h28.125v28.125h-28.125z%22/%3E%3Cpath%20d=%22M-126.907%2028.152h37.25V15.115l24.833%2021.729-24.833%2021.729V45.536h-37.25v-8.692z%22%20stroke=%22#000%22%20stroke-miterlimit=%2210%22%20pointer-events=%22all%22%20stroke-width=%22.938%22/%3E%3Cellipse%20cx=%22-119.968%22%20cy=%2236.747%22%20rx=%2214.714%22%20ry=%2214.26%22%20fill=%22#fff%22%20stroke=%22#00f%22%20stroke-width=%222.813%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/g%3E%3C/svg%3E",
+        "otid": 1652447581615
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "b97337fb-2814-484d-b9d7-ff9aebe4de2b",
+              "type": "basic.output",
+              "data": {
+                "name": "out"
+              },
+              "position": {
+                "x": 1120,
+                "y": -192
+              }
+            },
+            {
+              "id": "bccf523e-a4b1-42f4-a396-796a3fde9129",
+              "type": "basic.input",
+              "data": {
+                "name": "1",
+                "clock": false
+              },
+              "position": {
+                "x": 640,
+                "y": -192
+              }
+            },
+            {
+              "id": "1492dc34-4c69-48c3-87fd-2da6f77b0e3f",
+              "type": "basic.output",
+              "data": {
+                "name": "nz"
+              },
+              "position": {
+                "x": 1120,
+                "y": -104
+              }
+            },
+            {
+              "id": "d9293102-2bf9-49d6-90a2-52cca5ea8023",
+              "type": "basic.input",
+              "data": {
+                "name": "0",
+                "clock": false
+              },
+              "position": {
+                "x": 632,
+                "y": -96
+              }
+            },
+            {
+              "id": "c94ea917-7e1b-4f41-b8d1-94d65fdfbef1",
+              "type": "basic.info",
+              "data": {
+                "info": "## Truth table\n\n| i1 | i0 | out | nz | Description   |\n|----|----|-----|----|----|\n| 1  | 1  |  0  | 0  | No active inputs |\n| 1  | 0  |  0  | 1  | Input 0 active |\n| 0  | 1  |  1  | 1  | Input 1 active |\n| 0  | 0  |  1  | 1  | Input 1 active |",
+                "readonly": true
+              },
+              "position": {
+                "x": 1280,
+                "y": -256
+              },
+              "size": {
+                "width": 328,
+                "height": 160
+              }
+            },
+            {
+              "id": "b915b2a5-45f5-4179-a881-1d352521da68",
+              "type": "3676a00f3a70e406487ed14b901daf3e4984e63d",
+              "position": {
+                "x": 776,
+                "y": -96
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "8c254450-9a46-45e1-bc16-ce29e1b614fb",
+              "type": "3676a00f3a70e406487ed14b901daf3e4984e63d",
+              "position": {
+                "x": 776,
+                "y": -192
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "9fbe8288-7f31-44cd-accd-5400b989c9ec",
+              "type": "45b46121e920e3d12d72c978c700771c89ce64f0",
+              "position": {
+                "x": 952,
+                "y": -176
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            },
+            {
+              "id": "139af198-b13d-4cd8-bef3-9963f3e52a20",
+              "type": "basic.info",
+              "data": {
+                "info": "Encoder-2-1",
+                "readonly": true
+              },
+              "position": {
+                "x": 952,
+                "y": -96
+              },
+              "size": {
+                "width": 136,
+                "height": 40
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "d9293102-2bf9-49d6-90a2-52cca5ea8023",
+                "port": "out"
+              },
+              "target": {
+                "block": "b915b2a5-45f5-4179-a881-1d352521da68",
+                "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+              }
+            },
+            {
+              "source": {
+                "block": "bccf523e-a4b1-42f4-a396-796a3fde9129",
+                "port": "out"
+              },
+              "target": {
+                "block": "8c254450-9a46-45e1-bc16-ce29e1b614fb",
+                "port": "18c2ebc7-5152-439c-9b3f-851c59bac834"
+              }
+            },
+            {
+              "source": {
+                "block": "8c254450-9a46-45e1-bc16-ce29e1b614fb",
+                "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+              },
+              "target": {
+                "block": "9fbe8288-7f31-44cd-accd-5400b989c9ec",
+                "port": "bccf523e-a4b1-42f4-a396-796a3fde9129"
+              }
+            },
+            {
+              "source": {
+                "block": "b915b2a5-45f5-4179-a881-1d352521da68",
+                "port": "664caf9e-5f40-4df4-800a-b626af702e62"
+              },
+              "target": {
+                "block": "9fbe8288-7f31-44cd-accd-5400b989c9ec",
+                "port": "d9293102-2bf9-49d6-90a2-52cca5ea8023"
+              }
+            },
+            {
+              "source": {
+                "block": "9fbe8288-7f31-44cd-accd-5400b989c9ec",
+                "port": "b97337fb-2814-484d-b9d7-ff9aebe4de2b"
+              },
+              "target": {
+                "block": "b97337fb-2814-484d-b9d7-ff9aebe4de2b",
+                "port": "in"
+              }
+            },
+            {
+              "source": {
+                "block": "9fbe8288-7f31-44cd-accd-5400b989c9ec",
                 "port": "1492dc34-4c69-48c3-87fd-2da6f77b0e3f"
               },
               "target": {
