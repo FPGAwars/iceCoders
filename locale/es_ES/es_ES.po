@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-05-17 09:05+0000\n"
+"POT-Creation-Date: 2022-05-22 19:50+0000\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -354,7 +354,7 @@ msgid ""
 "A standard 2-to-1 encoder with nz (not-zero) output. Implemented in verilog"
 msgstr ""
 
-#: translation.js:81 translation.js:255
+#: translation.js:81 translation.js:256
 msgid "encoder-2-1"
 msgstr ""
 
@@ -453,8 +453,8 @@ msgstr ""
 #: translation.js:105 translation.js:113 translation.js:134 translation.js:135
 #: translation.js:136 translation.js:141 translation.js:150 translation.js:151
 #: translation.js:152 translation.js:157 translation.js:166 translation.js:167
-#: translation.js:168 translation.js:260 translation.js:261 translation.js:267
-#: translation.js:270
+#: translation.js:168 translation.js:258 translation.js:271 translation.js:272
+#: translation.js:278 translation.js:281
 msgid "Alhambra-II"
 msgstr ""
 
@@ -584,7 +584,7 @@ msgstr ""
 #: translation.js:137 translation.js:139 translation.js:142 translation.js:144
 #: translation.js:153 translation.js:155 translation.js:158 translation.js:160
 #: translation.js:169 translation.js:250 translation.js:251 translation.js:253
-#: translation.js:262 translation.js:264 translation.js:268 translation.js:271
+#: translation.js:273 translation.js:275 translation.js:279 translation.js:282
 msgid "01-manual-testing"
 msgstr ""
 
@@ -1088,29 +1088,70 @@ msgid ""
 "\n"
 msgstr ""
 
-#: translation.js:256
-msgid "Encoder-2-1-Bus"
-msgstr ""
-
-#: translation.js:257
-msgid "Encoder-2-1-Bus-neg"
-msgstr ""
-
-#: translation.js:258
-msgid "Encoder-2-1-neg"
+#: translation.js:255 translation.js:257
+msgid "Encoder-4-2"
 msgstr ""
 
 #: translation.js:259
-msgid "enconder-2-1"
+msgid "01-Manual-testing"
+msgstr ""
+
+#: translation.js:260
+msgid "4 to 2 binary Enconder with priority"
+msgstr ""
+
+#: translation.js:261
+msgid "3-bits counter"
+msgstr ""
+
+#: translation.js:262
+msgid "4-2 Encoder"
 msgstr ""
 
 #: translation.js:263
+msgid "2-4 Decoder"
+msgstr ""
+
+#: translation.js:264
+msgid ""
+"## Example: Manual testing of the 4-to-2 Encoder\n"
+"\n"
+"The output of a 3-bit counter is decoded and encoded again. The result  \n"
+"is shown on the LEDs. The conter is increased when the button is  \n"
+"pressed"
+msgstr ""
+
+#: translation.js:265
+msgid "Output: Encoded number"
+msgstr ""
+
+#: translation.js:266
+msgid "Mux-2-1"
+msgstr ""
+
+#: translation.js:267
+msgid "Encoder-2-1-Bus"
+msgstr ""
+
+#: translation.js:268
+msgid "Encoder-2-1-Bus-neg"
+msgstr ""
+
+#: translation.js:269
+msgid "Encoder-2-1-neg"
+msgstr ""
+
+#: translation.js:270
+msgid "enconder-2-1"
+msgstr ""
+
+#: translation.js:274
 msgid ""
 "# Encoder-2-1-Bus-neg: Manual testing\n"
 "\n"
 msgstr ""
 
-#: translation.js:265
+#: translation.js:276
 msgid ""
 "## Example: Manual testing of the 2-to-1 Encoder-Bus\n"
 "\n"
@@ -1118,11 +1159,11 @@ msgid ""
 "codified output (1-bit) is shown on LED7 and the nz output on LED0"
 msgstr ""
 
-#: translation.js:266
+#: translation.js:277
 msgid "**2-1 Encoder-Bus**"
 msgstr ""
 
-#: translation.js:269
+#: translation.js:280
 msgid ""
 "# Encoder-2-1-neg: Manual testing\n"
 "\n"
