@@ -61,6 +61,9 @@ For installing and using this colection in Icestudio follow these steps:
 * **01-Encoder-2-1**
   * **Alhambra-II**
     * 01-Enconder-2-1-buttons-LEDs
+* **02-Encoder-2-1-Bus-neg**
+  * **Alhambra-II**
+    * 02-Encoder-2-1-Bus-neg-with-buttons-LEDs
 * **TESTs**
   * **Decoders**
     * **01-bit**
