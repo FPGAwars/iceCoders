@@ -104,6 +104,10 @@ For installing and using this colection in Icestudio follow these steps:
         * 01-manual-testing
         * **Alhambra-II**
           * 01-manual-testing
+    * **Decoders-1-2**
+      * **Decoder-1-2**
+        * **Alhambra-II**
+          * 01-manual-testing
   * **Encoders**
     * **Encoder-4-2**
       * **Encoder-4-2**
