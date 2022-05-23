@@ -67,10 +67,7 @@ For installing and using this colection in Icestudio follow these steps:
 * **TESTs**
   * **Decoders**
     * **01-bit**
-      * **decoder-1-2-bus**
       * **decoder-1-2-bus-neg**
-        * **Alhambra-II**
-          * 01-manual-testing
         * **Alhambra-II**
           * 01-manual-testing
     * **02-bits**
@@ -100,6 +97,9 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-manual-testing
     * **Decoders-1-2**
       * **Decoder-1-2**
+      * **Decoder-1-2-Bus**
+        * **Alhambra-II**
+          * 01-manual-testing
       * **Decoder-1-2-neg**
         * **Alhambra-II**
           * 01-manual-testing
