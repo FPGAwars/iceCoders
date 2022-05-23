@@ -70,8 +70,6 @@ For installing and using this colection in Icestudio follow these steps:
       * **decoder-3-8-bus-neg**
         * **Alhambra-II**
           * 01-manual-testing
-      * **decoder-3-8-neg**
-        * 01-manual-testing
     * **Decoders-1-2**
       * **Decoder-1-2**
       * **Decoder-1-2-Bus**
@@ -99,6 +97,9 @@ For installing and using this colection in Icestudio follow these steps:
     * **Decoders-3-8**
       * **Decoder-3-8**
       * **Decoder-3-8-Bus**
+        * **Alhambra-II**
+          * 01-manual-testing
+      * **Decoder-3-8-neg**
         * **Alhambra-II**
           * 01-manual-testing
         * **Alhambra-II**
