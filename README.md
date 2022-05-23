@@ -55,6 +55,8 @@ For installing and using this colection in Icestudio follow these steps:
     * encoder-2-1-neg
     * encoder-2-1-verilog
     * encoder-2-1
+  * **Encoders-4-2**
+    * Encoder-4-2
 
 ## Examples
 * 00-Index
@@ -64,6 +66,9 @@ For installing and using this colection in Icestudio follow these steps:
 * **02-Encoder-2-1-Bus-neg**
   * **Alhambra-II**
     * 02-Encoder-2-1-Bus-neg-with-buttons-LEDs
+* **03-Encoder-2-4**
+  * **Alhambra-II**
+    * 03-Encoder-2-4-with-buttons-LEDs
 * **TESTs**
   * **Decoders**
     * **Decoders-1-2**
