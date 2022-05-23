@@ -104,18 +104,6 @@
           }
         },
         {
-          "id": "8890e327-dec9-4318-b743-33dc0bf47acf",
-          "type": "3ccb03f86da4bbc6c20eb70c8394788ab07c1e42",
-          "position": {
-            "x": 480,
-            "y": -320
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "a228c6a5-d0e9-43da-b07a-504c50bcd2e8",
           "type": "basic.info",
           "data": {
@@ -162,12 +150,24 @@
             "width": 184,
             "height": 40
           }
+        },
+        {
+          "id": "11830f00-31dd-4677-9c22-83171725b82c",
+          "type": "4c0d16dd41d4867a727783da63386c7a98d60eca",
+          "position": {
+            "x": 480,
+            "y": -320
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
         }
       ],
       "wires": [
         {
           "source": {
-            "block": "8890e327-dec9-4318-b743-33dc0bf47acf",
+            "block": "11830f00-31dd-4677-9c22-83171725b82c",
             "port": "b97337fb-2814-484d-b9d7-ff9aebe4de2b"
           },
           "target": {
@@ -177,7 +177,7 @@
         },
         {
           "source": {
-            "block": "8890e327-dec9-4318-b743-33dc0bf47acf",
+            "block": "11830f00-31dd-4677-9c22-83171725b82c",
             "port": "1492dc34-4c69-48c3-87fd-2da6f77b0e3f"
           },
           "target": {
@@ -202,7 +202,7 @@
             "port": "0ad5c923-6ce0-49d3-8fbe-a6a357336a1d"
           },
           "target": {
-            "block": "8890e327-dec9-4318-b743-33dc0bf47acf",
+            "block": "11830f00-31dd-4677-9c22-83171725b82c",
             "port": "6ea5e00f-052d-4e2d-a6ee-bb4578eea124"
           },
           "size": 2
@@ -831,13 +831,13 @@
         }
       }
     },
-    "3ccb03f86da4bbc6c20eb70c8394788ab07c1e42": {
+    "4c0d16dd41d4867a727783da63386c7a98d60eca": {
       "package": {
         "name": "encoder-2-1-bus-neg",
         "version": "0.1",
         "description": "A 2-to-1 encoder with active low inputs in a bus and nz (not-zero) output",
         "author": "Juan González-Gómez (Obijuan)",
-        "image": "%3Csvg%20width=%22151.747%22%20height=%2274.119%22%20viewBox=%220%200%20142.26331%2069.487136%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20transform=%22translate(167.847%20-.22)%22%3E%3Cpath%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20d=%22M-167.847.22h28.125v28.125h-28.125zM-167.847%2041.582h28.125v28.125h-28.125zM-53.709%2022.179h28.125v28.125h-28.125z%22/%3E%3Cpath%20d=%22M-126.907%2028.152h37.25V15.115l24.833%2021.729-24.833%2021.729V45.536h-37.25v-8.692z%22%20stroke=%22#000%22%20stroke-miterlimit=%2210%22%20pointer-events=%22all%22%20stroke-width=%22.938%22/%3E%3Cellipse%20cx=%22-119.968%22%20cy=%2236.747%22%20rx=%2214.714%22%20ry=%2214.26%22%20fill=%22#fff%22%20stroke=%22#00f%22%20stroke-width=%222.813%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/g%3E%3C/svg%3E",
+        "image": "%3Csvg%20width=%22151.747%22%20height=%2274.119%22%20viewBox=%220%200%20142.26331%2069.487136%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cg%20transform=%22translate(167.847%20-.22)%22%3E%3Cpath%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20d=%22M-167.847.22h28.125v28.125h-28.125zM-167.847%2041.582h28.125v28.125h-28.125zM-53.709%2022.179h28.125v28.125h-28.125z%22/%3E%3Cpath%20d=%22M-126.907%2028.152h37.25V15.115l24.833%2021.729-24.833%2021.729V45.536h-37.25v-8.692z%22%20stroke=%22#000%22%20stroke-miterlimit=%2210%22%20pointer-events=%22all%22%20stroke-width=%22.938%22/%3E%3Cellipse%20cx=%22-124.867%22%20cy=%2212.916%22%20rx=%228.972%22%20ry=%228.695%22%20fill=%22#fff%22%20stroke=%22#00f%22%20stroke-width=%222.813%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/g%3E%3C/svg%3E",
         "otid": 1652447581615
       },
       "design": {
@@ -859,21 +859,9 @@
               "type": "basic.input",
               "data": {
                 "name": "",
-                "virtual": true,
                 "range": "[1:0]",
-                "pins": [
-                  {
-                    "index": "1",
-                    "name": "NULL",
-                    "value": "NULL"
-                  },
-                  {
-                    "index": "0",
-                    "name": "NULL",
-                    "value": "NULL"
-                  }
-                ],
-                "clock": false
+                "clock": false,
+                "size": 2
               },
               "position": {
                 "x": 624,
