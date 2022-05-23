@@ -66,10 +66,6 @@ For installing and using this colection in Icestudio follow these steps:
     * 02-Encoder-2-1-Bus-neg-with-buttons-LEDs
 * **TESTs**
   * **Decoders**
-    * **02-bits**
-      * **decoder-2-4-bus-neg**
-        * **Alhambra-II**
-          * 01-manual-testing
     * **03-bits**
       * **decoder-3-8**
       * **decoder-3-8-bus**
@@ -98,6 +94,8 @@ For installing and using this colection in Icestudio follow these steps:
     * **Decoders-2-4**
       * **Decoder-2-4**
       * **Decoder-2-4-Bus**
+      * **Decoder-2-4-Bus-neg**
+        * 01-manual-testing
         * **Alhambra-II**
           * 01-manual-testing
       * **Decoder-2-4-neg**
