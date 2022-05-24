@@ -165,7 +165,7 @@ gettext('Select positive or negative logic for the input (0=positive, 1=negative
 gettext('1-bit generic constant (0/1)');
 gettext('Reg: 1-Bit register');
 gettext('2-to-1 Multplexer (1-bit channels). Fippled version');
-gettext('# Example: Manual testing of the Encoder-4-2\n\nSend the pattern 0001, 0010, 0100, 1000 to the enconder. The output is shown on the LEDs:  \n00, 01, 10, 11');
+gettext('# Example: Manual testing of the Encoder-4-2\n\nSend the pattern 0000, 0001, 0010, 0100, 1000 to the enconder. The output is shown on the LEDs:  \n00 (nz=0), 00 (nz=1), 01 (nz=1), 10 (nz=1), 11 (nz=1)');
 gettext('Generate the bit pattern, with a shift  \nregister');
 gettext('2-bits Encoded number');
 gettext('System clock');
