@@ -125,7 +125,7 @@
               ]
             },
             "params": [],
-            "code": "//-- 4-2 Binary encoder with priority\n\nreg [1:0]out;\nwire [3:0]y = {i3, i2, i1, i0};\n\nalways @*\nbegin\n  casex(y)\n    4'b0001: out = 2'b00;\n    4'b001x: out = 2'b01;\n    4'b01xx: out = 2'b10;\n    4'b1xxx: out = 2'b11;\n    default: out = 2'b00;\n  endcase\nend\n\n//assign {o1, o0} <= out;\nassign {o1,o0} = out;\n\nassign nz = |y;"
+            "code": "//-- 4-2 Binary encoder with priority\n\nreg [1:0]out;\nwire [3:0]y = {i3, i2, i1, i0};\n\nalways @*\nbegin\n  casex(y)\n    4'b0001: out = 2'b00;\n    4'b001x: out = 2'b01;\n    4'b01xx: out = 2'b10;\n    4'b1xxx: out = 2'b11;\n    default: out = 2'b00;\n  endcase\nend\n\nassign {o1,o0} = out;\n\nassign nz = |y;"
           },
           "position": {
             "x": 512,
