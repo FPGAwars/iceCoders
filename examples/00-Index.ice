@@ -167,7 +167,7 @@
             "y": 440
           },
           "size": {
-            "width": 280,
+            "width": 208,
             "height": 32
           }
         },
@@ -527,12 +527,40 @@
             "readonly": true
           },
           "position": {
-            "x": 760,
+            "x": 752,
             "y": 440
           },
           "size": {
-            "width": 192,
-            "height": 40
+            "width": 152,
+            "height": 32
+          }
+        },
+        {
+          "id": "d681012b-6c53-4eb8-9490-3c5b757b0aa6",
+          "type": "1578e8b604d9a8c2729a935cbb1ccccb5605c1f2",
+          "position": {
+            "x": 928,
+            "y": 472
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "2f2f160a-8a16-45c8-99f2-33a135aa8da5",
+          "type": "basic.info",
+          "data": {
+            "info": "**Encoder 4-2-Bus**",
+            "readonly": true
+          },
+          "position": {
+            "x": 920,
+            "y": 440
+          },
+          "size": {
+            "width": 168,
+            "height": 32
           }
         }
       ],
@@ -7983,6 +8011,190 @@
                 "port": "97b51945-d716-4b6c-9db9-970d08541249"
               },
               "vertices": []
+            }
+          ]
+        }
+      }
+    },
+    "1578e8b604d9a8c2729a935cbb1ccccb5605c1f2": {
+      "package": {
+        "name": "Encoder-4-2-Bus",
+        "version": "0.1",
+        "description": "4 to 2 binary Enconder with priority. Input and output Buses",
+        "author": "Juan González-Gómez (Obijuan)",
+        "image": "%3Csvg%20width=%22151.747%22%20height=%22162.358%22%20viewBox=%220%200%20142.26331%20152.21115%22%20xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cpath%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20d=%22M0%2041.362h28.125v28.125H0zM0%2082.724h28.125v28.125H0zM114.138%2082.724h28.125v28.125h-28.125z%22/%3E%3Cpath%20d=%22M40.94%2069.294h37.25V56.257l24.832%2021.729L78.19%2099.715V86.678H40.94v-8.692z%22%20stroke=%22#000%22%20stroke-miterlimit=%2210%22%20pointer-events=%22all%22%20stroke-width=%22.938%22/%3E%3Cpath%20fill=%22#00f%22%20fill-rule=%22evenodd%22%20d=%22M0%200h28.125v28.125H0zM0%20124.086h28.125v28.125H0zM114.138%2041.362h28.125v28.125h-28.125z%22/%3E%3C/svg%3E",
+        "otid": 1653247490505
+      },
+      "design": {
+        "graph": {
+          "blocks": [
+            {
+              "id": "6c354dfa-3eb0-4a60-ba54-a3b6ad85e63a",
+              "type": "basic.output",
+              "data": {
+                "name": "",
+                "range": "[1:0]",
+                "size": 2
+              },
+              "position": {
+                "x": 728,
+                "y": 456
+              }
+            },
+            {
+              "id": "bcdb43f7-6bae-4096-867d-08171f96760f",
+              "type": "basic.input",
+              "data": {
+                "name": "",
+                "range": "[3:0]",
+                "clock": false,
+                "size": 4
+              },
+              "position": {
+                "x": 64,
+                "y": 480
+              }
+            },
+            {
+              "id": "974de865-93f4-4928-8ca8-b5532a0ccd13",
+              "type": "basic.output",
+              "data": {
+                "name": "nz"
+              },
+              "position": {
+                "x": 728,
+                "y": 520
+              }
+            },
+            {
+              "id": "bd6108cd-6d7f-4018-98e6-da2cf165edeb",
+              "type": "fd395ea9e0d5223fedc47e36bf0e4899dbe0bfdf",
+              "position": {
+                "x": 392,
+                "y": 448
+              },
+              "size": {
+                "width": 96,
+                "height": 128
+              }
+            },
+            {
+              "id": "0dacbb82-bb3c-41ef-bc68-223706a5643b",
+              "type": "c4f23ad05c2010ec9bd213c8814c9238873037ae",
+              "position": {
+                "x": 232,
+                "y": 448
+              },
+              "size": {
+                "width": 96,
+                "height": 128
+              }
+            },
+            {
+              "id": "1acf7251-9d28-4a36-bece-4569277c7bd4",
+              "type": "80ac841b78ab68b7668296f4d0b0b4daadc7bcf9",
+              "position": {
+                "x": 552,
+                "y": 456
+              },
+              "size": {
+                "width": 96,
+                "height": 64
+              }
+            }
+          ],
+          "wires": [
+            {
+              "source": {
+                "block": "bcdb43f7-6bae-4096-867d-08171f96760f",
+                "port": "out"
+              },
+              "target": {
+                "block": "0dacbb82-bb3c-41ef-bc68-223706a5643b",
+                "port": "0ebd46a4-769b-45e6-bcaf-e3796264aed3"
+              },
+              "size": 4
+            },
+            {
+              "source": {
+                "block": "0dacbb82-bb3c-41ef-bc68-223706a5643b",
+                "port": "bbe1895b-be8b-4237-b0d1-ae592e3e6208"
+              },
+              "target": {
+                "block": "bd6108cd-6d7f-4018-98e6-da2cf165edeb",
+                "port": "adf3a6ae-71e2-43dd-b504-c2cdbc14dab7"
+              }
+            },
+            {
+              "source": {
+                "block": "0dacbb82-bb3c-41ef-bc68-223706a5643b",
+                "port": "33072210-9ba0-4659-8339-95952b939e6e"
+              },
+              "target": {
+                "block": "bd6108cd-6d7f-4018-98e6-da2cf165edeb",
+                "port": "48843800-cffe-4395-9125-dd5373df539e"
+              }
+            },
+            {
+              "source": {
+                "block": "0dacbb82-bb3c-41ef-bc68-223706a5643b",
+                "port": "f5a71d7b-de20-4527-80c8-0eb20de0dc77"
+              },
+              "target": {
+                "block": "bd6108cd-6d7f-4018-98e6-da2cf165edeb",
+                "port": "ce67679c-c689-4549-bd9b-2f46aff61734"
+              }
+            },
+            {
+              "source": {
+                "block": "0dacbb82-bb3c-41ef-bc68-223706a5643b",
+                "port": "0f7487e5-b070-4277-bba6-acf69934afca"
+              },
+              "target": {
+                "block": "bd6108cd-6d7f-4018-98e6-da2cf165edeb",
+                "port": "16085d41-4d8e-48a7-a75d-4602dd868f30"
+              }
+            },
+            {
+              "source": {
+                "block": "bd6108cd-6d7f-4018-98e6-da2cf165edeb",
+                "port": "3b78668d-4113-4165-b30a-0d6f5f3e8c6a"
+              },
+              "target": {
+                "block": "1acf7251-9d28-4a36-bece-4569277c7bd4",
+                "port": "969e11ca-69e8-403b-a566-7bf2fbe3a5a8"
+              }
+            },
+            {
+              "source": {
+                "block": "bd6108cd-6d7f-4018-98e6-da2cf165edeb",
+                "port": "aecac859-d1d3-4583-87d3-f9283f9819b7"
+              },
+              "target": {
+                "block": "1acf7251-9d28-4a36-bece-4569277c7bd4",
+                "port": "e4111201-8441-4e7d-bcd2-bcf9d265d043"
+              }
+            },
+            {
+              "source": {
+                "block": "1acf7251-9d28-4a36-bece-4569277c7bd4",
+                "port": "99661aef-c9bf-473e-93c4-8f5edf511d36"
+              },
+              "target": {
+                "block": "6c354dfa-3eb0-4a60-ba54-a3b6ad85e63a",
+                "port": "in"
+              },
+              "size": 2
+            },
+            {
+              "source": {
+                "block": "bd6108cd-6d7f-4018-98e6-da2cf165edeb",
+                "port": "974de865-93f4-4928-8ca8-b5532a0ccd13"
+              },
+              "target": {
+                "block": "974de865-93f4-4928-8ca8-b5532a0ccd13",
+                "port": "in"
+              }
             }
           ]
         }
