@@ -81,6 +81,8 @@ gettext('## Truth table\n\n| i1 | i0 | out | nz | Description   |\n|----|----|--
 gettext('encoder-2-1-verilog');
 gettext('A standard 2-to-1 encoder with nz (not-zero) output. Implemented in verilog');
 gettext('encoder-2-1');
+gettext('Encoder-4-2-Verilog');
+gettext('4 to 2 binary Enconder with priority. Verilog implementation');
 gettext('Encoder-4-2');
 gettext('4 to 2 binary Enconder with priority');
 gettext('2-to-1 Multplexer (1-bit channels)');

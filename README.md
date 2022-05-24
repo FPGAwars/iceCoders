@@ -56,6 +56,7 @@ For installing and using this colection in Icestudio follow these steps:
     * encoder-2-1-verilog
     * encoder-2-1
   * **Encoders-4-2**
+    * Encoder-4-2-Verilog
     * Encoder-4-2
 
 ## Examples
