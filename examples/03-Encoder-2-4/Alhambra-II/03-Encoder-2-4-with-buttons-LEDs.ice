@@ -147,8 +147,8 @@
             ]
           },
           "position": {
-            "x": -480,
-            "y": -48
+            "x": -488,
+            "y": -80
           }
         },
         {
@@ -166,8 +166,8 @@
             ]
           },
           "position": {
-            "x": -144,
-            "y": -8
+            "x": -152,
+            "y": -40
           }
         },
         {
@@ -186,8 +186,8 @@
             ]
           },
           "position": {
-            "x": -480,
-            "y": 16
+            "x": -488,
+            "y": -16
           }
         },
         {
@@ -205,8 +205,8 @@
             ]
           },
           "position": {
-            "x": -144,
-            "y": 56
+            "x": -152,
+            "y": 24
           }
         },
         {
@@ -225,8 +225,8 @@
             ]
           },
           "position": {
-            "x": -480,
-            "y": 72
+            "x": -488,
+            "y": 40
           }
         },
         {
@@ -245,8 +245,8 @@
             ]
           },
           "position": {
-            "x": -480,
-            "y": 128
+            "x": -488,
+            "y": 96
           }
         },
         {
@@ -264,8 +264,8 @@
             ]
           },
           "position": {
-            "x": -144,
-            "y": 160
+            "x": -152,
+            "y": 128
           }
         },
         {
@@ -278,19 +278,19 @@
           },
           "position": {
             "x": -584,
-            "y": -480
+            "y": -440
           }
         },
         {
           "id": "0c2ce4c9-effe-4ebd-8939-976d21eb8806",
           "type": "basic.info",
           "data": {
-            "info": "# Example: Manual testing of the Encoder-4-2\n\nSend the pattern 0001, 0010, 0100, 1000 to the enconder. The output is shown on the LEDs:  \n00, 01, 10, 11",
+            "info": "# Example: Manual testing of the Encoder-4-2\n\nSend the pattern 0000, 0001, 0010, 0100, 1000 to the enconder. The output is shown on the LEDs:  \n00 (nz=0), 00 (nz=1), 01 (nz=1), 10 (nz=1), 11 (nz=1)",
             "readonly": true
           },
           "position": {
-            "x": -840,
-            "y": -640
+            "x": -856,
+            "y": -616
           },
           "size": {
             "width": 720,
@@ -305,8 +305,8 @@
             "readonly": true
           },
           "position": {
-            "x": -312,
-            "y": 168
+            "x": -320,
+            "y": 136
           },
           "size": {
             "width": 176,
@@ -317,8 +317,8 @@
           "id": "ad8fcfb8-ece8-449d-b349-e3241b8b8a99",
           "type": "fd395ea9e0d5223fedc47e36bf0e4899dbe0bfdf",
           "position": {
-            "x": -328,
-            "y": 24
+            "x": -336,
+            "y": -8
           },
           "size": {
             "width": 96,
@@ -421,8 +421,8 @@
             "readonly": true
           },
           "position": {
-            "x": -152,
-            "y": -56
+            "x": -160,
+            "y": -88
           },
           "size": {
             "width": 192,
@@ -442,8 +442,8 @@
           },
           "vertices": [
             {
-              "x": -192,
-              "y": 40
+              "x": -200,
+              "y": 8
             }
           ]
         },
@@ -478,8 +478,8 @@
           },
           "vertices": [
             {
-              "x": -176,
-              "y": 152
+              "x": -184,
+              "y": 120
             }
           ]
         },
@@ -645,8 +645,8 @@
           },
           "vertices": [
             {
-              "x": -368,
-              "y": 64
+              "x": -376,
+              "y": 32
             }
           ]
         },
