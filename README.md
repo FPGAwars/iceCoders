@@ -61,6 +61,8 @@ For installing and using this colection in Icestudio follow these steps:
     * Encoder-4-2-Verilog
     * Encoder-4-2-neg
     * Encoder-4-2
+  * **Encoders-8-3**
+    * Encoder-8-3
 
 ## Examples
 * 00-Index
@@ -124,6 +126,10 @@ For installing and using this colection in Icestudio follow these steps:
       * **Encoder-4-2-neg**
         * **Alhambra-II**
           * 01-Manual-testing
+        * **Alhambra-II**
+          * 01-Manual-testing
+    * **Encoder-8-3**
+      * **Encoder-8-3**
         * **Alhambra-II**
           * 01-Manual-testing
     * **encoder-2-1**
