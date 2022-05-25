@@ -62,6 +62,7 @@ For installing and using this colection in Icestudio follow these steps:
     * Encoder-4-2-neg
     * Encoder-4-2
   * **Encoders-8-3**
+    * Encoder-8-3-neg
     * Encoder-8-3
 
 ## Examples
@@ -130,6 +131,9 @@ For installing and using this colection in Icestudio follow these steps:
           * 01-Manual-testing
     * **Encoder-8-3**
       * **Encoder-8-3**
+      * **Encoder-8-3-neg**
+        * **Alhambra-II**
+          * 01-Manual-testing
         * **Alhambra-II**
           * 01-Manual-testing
     * **encoder-2-1**
