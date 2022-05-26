@@ -65,6 +65,7 @@ For installing and using this colection in Icestudio follow these steps:
     * Encoder-8-3-Bus-neg
     * Encoder-8-3-Bus
     * Encoder-8-3-neg
+    * Encoder-8-3-verilog
     * Encoder-8-3
 
 ## Examples

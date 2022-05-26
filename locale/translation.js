@@ -106,6 +106,8 @@ gettext('Channel B');
 gettext('Encoder-8-3-Bus');
 gettext('Encoder-8-3-neg');
 gettext('8 to 3 binary Enconder with priority. Active low inputs');
+gettext('Encoder-8-3-verilog');
+gettext('8 to 3 binary Enconder with priority. Implemented in Verilog');
 gettext('Encoder-8-3');
 gettext('01-Encoder-2-1');
 gettext('02-Encoder-2-1-Bus-neg');
