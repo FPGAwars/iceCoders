@@ -199,7 +199,7 @@
               ]
             },
             "params": [],
-            "code": "//-- 4-2 Binary encoder with priority\n\nreg [2:0]out;\nwire [7:0]y = {i7,i6,i5,i4,i3, i2, i1, i0};\n\nalways @*\nbegin\n  casex(y)\n    8'b00000001: out = 3'b000;\n    8'b0000001x: out = 3'b001;\n    8'b000001xx: out = 3'b010;\n    8'b00001xxx: out = 3'b011;\n    8'b0001xxxx: out = 3'b100;\n    8'b001xxxxx: out = 3'b101;\n    8'b01xxxxxx: out = 3'b110;\n    8'b1xxxxxxx: out = 3'b111;\n    default: out = 3'b000;\n  endcase\nend\n\nassign {o2,o1,o0} = out;\n\nassign nz = |y;"
+            "code": "//-- 8-3 Binary encoder with priority\n\nreg [2:0]out;\nwire [7:0]y = {i7,i6,i5,i4,i3, i2, i1, i0};\n\nalways @*\nbegin\n  casex(y)\n    8'b00000001: out = 3'b000;\n    8'b0000001x: out = 3'b001;\n    8'b000001xx: out = 3'b010;\n    8'b00001xxx: out = 3'b011;\n    8'b0001xxxx: out = 3'b100;\n    8'b001xxxxx: out = 3'b101;\n    8'b01xxxxxx: out = 3'b110;\n    8'b1xxxxxxx: out = 3'b111;\n    default: out = 3'b000;\n  endcase\nend\n\nassign {o2,o1,o0} = out;\n\nassign nz = |y;"
           },
           "position": {
             "x": 520,
