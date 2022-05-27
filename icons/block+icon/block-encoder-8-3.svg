@@ -25,12 +25,12 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="0.4204826"
-     inkscape:cx="321.05966"
-     inkscape:cy="483.9677"
+     inkscape:cx="-164.09716"
+     inkscape:cy="483.96771"
      inkscape:window-width="1858"
      inkscape:window-height="1016"
      inkscape:window-x="62"
-     inkscape:window-y="1107"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
@@ -160,60 +160,56 @@
          x="54.396221"
          y="190.65019"
          style="fill:#767675;fill-opacity:1;stroke-width:0.218037">1</tspan></text>
-    <g
-       id="g1745-7"
-       transform="translate(55.039128,89.224386)">
-      <rect
-         style="opacity:0.556597;fill:#0000ff;fill-rule:evenodd;stroke-width:0.300309"
-         id="rect72-9"
-         width="11.607702"
-         height="11.607702"
-         x="13.894635"
-         y="32.901638" />
-      <rect
-         style="opacity:0.556597;fill:#0000ff;fill-rule:evenodd;stroke-width:0.300309"
-         id="rect154-2"
-         width="11.607702"
-         height="11.607702"
-         x="13.894635"
-         y="49.972439" />
-      <rect
-         style="opacity:0.556597;fill:#0000ff;fill-rule:evenodd;stroke-width:0.300309"
-         id="rect156-0"
-         width="11.607702"
-         height="11.607702"
-         x="61.001354"
-         y="49.972439" />
-      <path
-         d="m 30.791137,44.429826 h 15.373558 v -5.380745 l 10.24902,8.967905 -10.24902,8.96791 v -5.38075 H 30.791137 v -3.58716 z"
-         fill="#ffffff"
-         stroke="#000000"
-         stroke-miterlimit="10"
-         pointer-events="all"
-         id="path262-2"
-         style="opacity:0.556597;fill:#000000;stroke-width:0.264582;stroke-miterlimit:10;stroke-dasharray:none" />
-      <rect
-         style="opacity:0.556597;fill:#0000ff;fill-rule:evenodd;stroke-width:0.300309"
-         id="rect1453-3"
-         width="11.607702"
-         height="11.607702"
-         x="13.894635"
-         y="15.830843" />
-      <rect
-         style="opacity:0.556597;fill:#0000ff;fill-rule:evenodd;stroke-width:0.300309"
-         id="rect1457-7"
-         width="11.607702"
-         height="11.607702"
-         x="13.894635"
-         y="67.043243" />
-      <rect
-         style="opacity:0.556597;fill:#0000ff;fill-rule:evenodd;stroke-width:0.300309"
-         id="rect1463-5"
-         width="11.607702"
-         height="11.607702"
-         x="61.001354"
-         y="32.901638" />
-    </g>
+    <rect
+       style="opacity:1;fill:#0000ff;fill-rule:evenodd;stroke-width:0.300309"
+       id="rect72-9"
+       width="11.607702"
+       height="11.607702"
+       x="68.933762"
+       y="122.12602" />
+    <rect
+       style="opacity:1;fill:#0000ff;fill-rule:evenodd;stroke-width:0.300309"
+       id="rect154-2"
+       width="11.607702"
+       height="11.607702"
+       x="68.933762"
+       y="139.19682" />
+    <rect
+       style="opacity:1;fill:#0000ff;fill-rule:evenodd;stroke-width:0.300309"
+       id="rect156-0"
+       width="11.607702"
+       height="11.607702"
+       x="116.04048"
+       y="139.19682" />
+    <path
+       d="m 85.830265,133.65421 h 15.373555 v -5.38074 l 10.24902,8.9679 -10.24902,8.96791 v -5.38075 H 85.830265 v -3.58716 z"
+       fill="#ffffff"
+       stroke="#000000"
+       stroke-miterlimit="10"
+       pointer-events="all"
+       id="path262-2"
+       style="opacity:1;fill:#000000;stroke-width:0.264582;stroke-miterlimit:10;stroke-dasharray:none" />
+    <rect
+       style="opacity:1;fill:#0000ff;fill-rule:evenodd;stroke-width:0.300309"
+       id="rect1453-3"
+       width="11.607702"
+       height="11.607702"
+       x="68.933762"
+       y="105.05523" />
+    <rect
+       style="opacity:1;fill:#0000ff;fill-rule:evenodd;stroke-width:0.300309"
+       id="rect1457-7"
+       width="11.607702"
+       height="11.607702"
+       x="68.933762"
+       y="156.26762" />
+    <rect
+       style="opacity:1;fill:#0000ff;fill-rule:evenodd;stroke-width:0.300309"
+       id="rect1463-5"
+       width="11.607702"
+       height="11.607702"
+       x="116.04048"
+       y="122.12602" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:8.98863px;line-height:1.25;font-family:sans-serif;fill:#767675;fill-opacity:1;stroke:none;stroke-width:0.200948"
