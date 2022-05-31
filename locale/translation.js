@@ -116,6 +116,7 @@ gettext('04-Encoder-4-2-Bus-neg');
 gettext('05-Encoder-8-3');
 gettext('06-Encoder-8-3-Bus-neg');
 gettext('07-Decoder-1-2');
+gettext('08-Decoder-1-2-Bus-neg');
 gettext('TESTs');
 gettext('00-Index');
 gettext('# INDEX: IceCoders Collection');
@@ -258,6 +259,9 @@ gettext('# Example: Manual testing of the Encoder-8-3-Bus-neg\n\nThe eight exter
 gettext('Alhambra-II');
 gettext('07-Decoder-1-2-button-LED');
 gettext('# Example: Decoder 1-2: Manual testing\n\nWhen the button is pressed, the LED1 is ON and the LED0 is OFF.  \nWhen the buton not pressed, the LED1 is OFF and the LED0 is ON');
+gettext('Alhambra-II');
+gettext('08-Decoder-1-2-Bus-neg-button-LED');
+gettext('# Example: Decoder 1-2-bus-neg: Manual testing\n\nWhen the button is pressed, the LED1 is OFF and the LED0 is ON.  \nWhen the buton not pressed, the LED1 is ON and the LED0 is OFF');
 gettext('Decoders');
 gettext('Encoders');
 gettext('Decoders-1-2');
