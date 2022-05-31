@@ -256,7 +256,7 @@ gettext('05-Encoder-8-3-with-buttons-LEDs');
 gettext('8 FPGA internal pull-ups');
 gettext('# Example: Manual testing of the Encoder-8-3-Bus-neg\n\nThe eight external buttons are encoded into 3-bits and displayed on the LEDs');
 gettext('Alhambra-II');
-gettext('01-manual-testing');
+gettext('07-Decoder-1-2-button-LED');
 gettext('# Example: Decoder 1-2: Manual testing\n\nWhen the button is pressed, the LED1 is ON and the LED0 is OFF.  \nWhen the buton not pressed, the LED1 is OFF and the LED0 is ON');
 gettext('Decoders');
 gettext('Encoders');
