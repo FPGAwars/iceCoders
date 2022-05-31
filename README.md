@@ -88,6 +88,9 @@ For installing and using this colection in Icestudio follow these steps:
 * **06-Encoder-8-3-Bus-neg**
   * **Alhambra-II**
     * 05-Encoder-8-3-with-buttons-LEDs
+* **07-Decoder-1-2**
+  * **Alhambra-II**
+    * 01-manual-testing
 * **TESTs**
   * **Decoders**
     * **Decoders-1-2**
