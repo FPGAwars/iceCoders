@@ -101,6 +101,9 @@ For installing and using this colection in Icestudio follow these steps:
 * **10-Decoder-2-4-Bus-neg**
   * **Alhambra-II**
     * 10-Decoder-2-4-Bus-neg-buttons-LEDs
+* **11-Decoder-3-8**
+  * **Alhambra-II**
+    * 11-Decoder-3-8-button-LEDs
 * **TESTs**
   * **Decoders**
     * **Decoders-1-2**
