@@ -42,6 +42,7 @@ For installing and using this colection in Icestudio follow these steps:
     * Decod-2-4-bus-neg
     * Decod-2-4-bus
     * Decod-2-4-neg
+    * Decod-2-4-verilog
     * Decod-2-4
   * **Decod-3-8**
     * Decod-3-8-bus-neg
