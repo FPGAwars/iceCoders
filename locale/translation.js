@@ -42,6 +42,8 @@ gettext('## Truth table\n\n| input  |  o3 | o2 | o1 | o0 |\n|--------|-----|----
 gettext('Decod-2-4-bus');
 gettext('Decod-2-4-neg');
 gettext('Decoder-2-4-neg:  2 to 4 decoder. The outputs are active low');
+gettext('Decod-2-4-verilog');
+gettext('Decoder-2-4:  2 to 4 binary decoder. Verilog implementation');
 gettext('Decod-2-4');
 gettext('Decod-3-8-bus-neg');
 gettext('Decoder-3-8:  3 to 8 decoder. Output bus. Outputs are active low');
