@@ -50,8 +50,6 @@
           "id": "163619cd-afeb-408e-b296-046af1c12b75",
           "type": "basic.code",
           "data": {
-            "code": "assign {i1,i0} = 1 << y;\n",
-            "params": [],
             "ports": {
               "in": [
                 {
@@ -60,13 +58,15 @@
               ],
               "out": [
                 {
-                  "name": "i1"
+                  "name": "o1"
                 },
                 {
-                  "name": "i0"
+                  "name": "o0"
                 }
               ]
-            }
+            },
+            "params": [],
+            "code": "assign {o1,o0} = 1 << y;\n"
           },
           "position": {
             "x": 872,
@@ -93,7 +93,7 @@
         {
           "source": {
             "block": "163619cd-afeb-408e-b296-046af1c12b75",
-            "port": "i1"
+            "port": "o1"
           },
           "target": {
             "block": "d3f73a83-6a71-4d4e-b3b7-aec70a3819f3",
@@ -103,7 +103,7 @@
         {
           "source": {
             "block": "163619cd-afeb-408e-b296-046af1c12b75",
-            "port": "i0"
+            "port": "o0"
           },
           "target": {
             "block": "bf050c34-c6f4-4a51-b2fa-3c91746a68cb",
