@@ -65,6 +65,8 @@ gettext('Bus output');
 gettext('Decod-3-8-bus');
 gettext('Decod-3-8-neg');
 gettext('Decoder-3-8:  3 to 8 decoder. Outputs are active low');
+gettext('Decod-3-8-verilog');
+gettext('Decoder-3-8:  3 to 8 decoder. Verilog implementation');
 gettext('Decod-3-8');
 gettext('Encoders-2-1');
 gettext('Encoders-4-2');

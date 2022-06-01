@@ -48,6 +48,7 @@ For installing and using this colection in Icestudio follow these steps:
     * Decod-3-8-bus-neg
     * Decod-3-8-bus
     * Decod-3-8-neg
+    * Decod-3-8-verilog
     * Decod-3-8
 * **Encoders**
   * **Encoders-2-1**
