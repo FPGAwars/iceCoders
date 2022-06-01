@@ -98,6 +98,9 @@ For installing and using this colection in Icestudio follow these steps:
 * **09-Decoder-2-4**
   * **Alhambra-II**
     * 09-Decoder-2-4-button-LEDs
+* **10-Decoder-2-4-Bus-neg**
+  * **Alhambra-II**
+    * 10-Decoder-2-4-Bus-neg-buttons-LEDs
 * **TESTs**
   * **Decoders**
     * **Decoders-1-2**
