@@ -1015,6 +1015,10 @@ msgid ""
 "It stores the input data that arrives at cycle n  \n"
 "Its output is shown in the cycle n+1"
 msgstr ""
+"# Biestable D  \n"
+"\n"
+"Almacena el dato de entrada que llega en el ciclo n  \n"
+"Su salida se muestra en el ciclo n+1"
 
 #: translation.js:230
 msgid ""
@@ -1233,6 +1237,10 @@ msgid ""
 "When the button is pressed, the LED1 is OFF and the LED0 is ON.  \n"
 "When the buton not pressed, the LED1 is ON and the LED0 is OFF"
 msgstr ""
+"# Ejemplo: Decodificador 1-2-bus-neg: Prueba manual\n"
+"\n"
+"cuando el botón se aprieta, el LED1 se apaga y el LED0 se enciende.  \n"
+"Cuando el botón no se aprieta, el LED1 se enciende y el LED0 se apaga"
 
 #: translation.js:274
 msgid "09-Decoder-2-4-button-LEDs"
@@ -1297,6 +1305,12 @@ msgid ""
 "The numbers 0 - 7 are sent to the decoder. The decoded number is shown on  \n"
 "LEDs 0 - 7. The number to decode is increased by 1 when the button is pressed"
 msgstr ""
+"# Ejemplo: Decodificador 3-8: Prueba manual\n"
+"\n"
+"Los números 0-7 se envían al decodificador. El número decodificado se "
+"muestran  \n"
+"en los LEDs 0 - 7. El número a decodificador se incrementa en 1 cada vez que "
+"se aprieta el botón"
 
 #: translation.js:290
 msgid "3-bits counter"
@@ -1358,6 +1372,10 @@ msgid ""
 "When the button is pressed, the LED1 is OFF and the LED0 is ON.  \n"
 "When the buton not pressed, the LED1 is ON and the LED0 is OFF"
 msgstr ""
+"# Decodificador 1-2-bus-neg: Prueba manual\n"
+"\n"
+"Cuando el botón se aprieta, el LED1 se apaga y el LED0 se enciende.  \n"
+"Cuando el botón no se aprieta, el LED1 está encendido y el LED0 apagado.  "
 
 #: translation.js:310
 msgid ""
@@ -1366,6 +1384,10 @@ msgid ""
 "When the button is pressed, the LED1 is ON and the LED0 is OFF.  \n"
 "When the buton not pressed, the LED1 is OFF and the LED0 is ON"
 msgstr ""
+"# Decodificador 1-2-bus: Prueba manual\n"
+"\n"
+"Cuando el botón se aprieta, el LED1 se enciende y el LED0 se apaga.  \n"
+"Cuando el botón no se aprieta, el LED1 se apaga y el LED0 se enciende"
 
 #: translation.js:313
 msgid ""
@@ -1374,6 +1396,10 @@ msgid ""
 "When the button is pressed, the LED1 is OFF and the LED0 is ON.  \n"
 "When the buton not pressed, the LED1 is ON and the LED0 is OFF"
 msgstr ""
+"# Decodificador 1-2-neg: Prueba manual\n"
+"\n"
+"Cuando el botón se aprieta, el LED1 se apaga y el LED0 se enciende.  \n"
+"Cuando el botón no se aprieta, el LED1 se enciende y el LED0 se apaga"
 
 #: translation.js:315
 msgid ""
@@ -1382,6 +1408,10 @@ msgid ""
 "When the button is pressed, the LED1 is ON and the LED0 is OFF.  \n"
 "When the buton not pressed, the LED1 is OFF and the LED0 is ON"
 msgstr ""
+"# Decodificador 1-2: Prueba manual\n"
+"\n"
+"Cuando el botón se aprieta, el LED1 se enciende y el LED0 se apaga.  \n"
+"Cuando el botón no está apretado, el LED1 se apaga y el LED0 se enciende"
 
 #: translation.js:316
 msgid "Decoder-2-4"
@@ -1404,24 +1434,32 @@ msgid ""
 "# Decoder 2-4-bus-neg: Manual testing\n"
 "\n"
 msgstr ""
+"# Decodificador 2-4-bus-neg: Prueba manual\n"
+"\n"
 
 #: translation.js:325
 msgid ""
 "# Decoder 2-4-bus: Manual testing\n"
 "\n"
 msgstr ""
+"# Decodificador 2-4-bus: Prueba manual\n"
+"\n"
 
 #: translation.js:327
 msgid ""
 "# Decoder 2-4-neg: Manual testing\n"
 "\n"
 msgstr ""
+"# Decodificador 2-4-neg: Prueba manual\n"
+"\n"
 
 #: translation.js:329
 msgid ""
 "# Decoder 2-4: Manual testing\n"
 "\n"
 msgstr ""
+"# Decodificador 2-4: Prueba manual\n"
+"\n"
 
 #: translation.js:330
 msgid "Decoder-3-8"
@@ -1444,18 +1482,24 @@ msgid ""
 "# Decoder 3-8-bus: Manual testing\n"
 "\n"
 msgstr ""
+"# Decodificador 3-8-bus: Prueba manual\n"
+"\n"
 
 #: translation.js:342
 msgid ""
 "# Decoder 3-8-neg: Manual testing\n"
 "\n"
 msgstr ""
+"# Decodificador 3-8-meg: Prueba manual\n"
+"\n"
 
 #: translation.js:344
 msgid ""
 "# Decoder 3-8: Manual testing\n"
 "\n"
 msgstr ""
+"# Decodificador 3-8-bus: Prueba manual\n"
+"\n"
 
 #: translation.js:355 translation.js:360 translation.js:362 translation.js:364
 #: translation.js:373 translation.js:388 translation.js:394 translation.js:396
@@ -1637,6 +1681,8 @@ msgid ""
 "# Encoder-2-1-Bus-neg: Manual testing\n"
 "\n"
 msgstr ""
+"# Codificador-2-1-Bus-neg: Prueba manual\n"
+"\n"
 
 #: translation.js:408
 msgid ""
@@ -1655,3 +1701,5 @@ msgid ""
 "# Encoder-2-1-neg: Manual testing\n"
 "\n"
 msgstr ""
+"# Codificador-2-1-neg: Prueba manual\n"
+"\n"
