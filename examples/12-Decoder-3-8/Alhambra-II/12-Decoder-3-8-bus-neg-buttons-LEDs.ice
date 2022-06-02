@@ -90,16 +90,16 @@
           "id": "b1ffcc90-2f86-452b-9220-93b30d286022",
           "type": "basic.info",
           "data": {
-            "info": "# Example: Decoder 3-8-bus: Manual testing\n\n",
+            "info": "# Example: Decoder 3-8-bus-neg: Manual testing\n\n",
             "readonly": true
           },
           "position": {
             "x": -344,
-            "y": -40
+            "y": 88
           },
           "size": {
-            "width": 576,
-            "height": 88
+            "width": 664,
+            "height": 72
           }
         },
         {
