@@ -291,7 +291,7 @@ gettext('3-bits counter');
 gettext('3-8 Decoder');
 gettext('Alhambra-II');
 gettext('12-Decoder-3-8-bus-neg-buttons-LEDs');
-gettext('# Example: Decoder 3-8-bus: Manual testing\n\n');
+gettext('# Example: Decoder 3-8-bus-neg: Manual testing\n\n');
 gettext('Decoders');
 gettext('Encoders');
 gettext('Decoders-1-2');
