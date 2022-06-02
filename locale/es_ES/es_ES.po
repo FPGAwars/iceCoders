@@ -45,7 +45,7 @@ msgstr ""
 
 #: translation.js:17
 msgid "Bus2-Join-all: Joint two wires into a 2-bits Bus"
-msgstr ""
+msgstr "Bus2-Join-all: Agrupar dos cables en un bus de 2-bits"
 
 #: translation.js:18
 msgid "not-x2: 2-bits not gate"
@@ -53,7 +53,7 @@ msgstr ""
 
 #: translation.js:19
 msgid "Bus2-Split-all: Split the 2-bits bus into two wires"
-msgstr ""
+msgstr "Bus2-Split-all: Separar el bus de 2-bits en dos cables"
 
 #: translation.js:20
 msgid "NOT gate (Verilog implementation)"
@@ -141,11 +141,11 @@ msgstr ""
 
 #: translation.js:36
 msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
-msgstr ""
+msgstr "Bus4-Split-all: Dividir el bus de 4-bits en sus cuatro cables"
 
 #: translation.js:37
 msgid "Bus4-Join-all: Join all the wires into a 4-bits Bus"
-msgstr ""
+msgstr "Bus4-Join-all: Agrupar todos los cables en un bus de 4-bits"
 
 #: translation.js:38
 msgid "Decoder-2-4:  2 to 4 decoder. Output bus"
@@ -236,6 +236,7 @@ msgstr ""
 #: translation.js:56
 msgid "Bus3-Split-1-2: Split the 3-bits bus into two: 1-bit and 2-bits buses"
 msgstr ""
+"Bus3-Split-1-2: Separar el bus de 3-bits en dos buses de 1-bit y 2-bits"
 
 #: translation.js:57
 msgid "Decoder-2-4:  2 to 4 decoder"
@@ -246,18 +247,24 @@ msgid ""
 "AND-Busen-4: Enable a 4-bits bus. When the enable signal is 0, the output is "
 "0"
 msgstr ""
+"AND-Busen-4: Habilitar un bus de 4-bits. Cuando la señal de enable es 0, la "
+"salida es 0"
 
 #: translation.js:59
 msgid ""
 "Active when the input  \n"
 "is 4-7"
 msgstr ""
+"Activo cuando la entrada  \n"
+"es 4-7"
 
 #: translation.js:60
 msgid ""
 "Active when the input  \n"
 "is 0-3"
 msgstr ""
+"Activo cuando la salida  \n"
+"es 0-3"
 
 #: translation.js:61
 msgid ""
@@ -313,11 +320,11 @@ msgstr ""
 
 #: translation.js:63
 msgid "Bus input"
-msgstr ""
+msgstr "Entrada de bus"
 
 #: translation.js:64
 msgid "Bus output"
-msgstr ""
+msgstr "Salida de bus"
 
 #: translation.js:65
 msgid "Decod-3-8-bus"
@@ -532,7 +539,7 @@ msgstr ""
 
 #: translation.js:107
 msgid "Bus3-Join-all: Joint three wires into a 3-bits Bus"
-msgstr ""
+msgstr "Bus3-Join-all: Agrupar tres cables en un bus de 3-bits"
 
 #: translation.js:108
 msgid "Channel A"
@@ -740,7 +747,7 @@ msgstr "**Codificador 8-3-Bus-neg**"
 #: translation.js:372 translation.js:393 translation.js:403 translation.js:404
 #: translation.js:410 translation.js:413
 msgid "Alhambra-II"
-msgstr ""
+msgstr "Alhambra-II"
 
 #: translation.js:158
 msgid "01-Enconder-2-1-buttons-LEDs"
@@ -764,7 +771,7 @@ msgstr ""
 
 #: translation.js:161
 msgid "Active if any input is active"
-msgstr ""
+msgstr "Activo si alguna entrada está activada"
 
 #: translation.js:162
 msgid "**2-1 Encoder**"
@@ -904,10 +911,12 @@ msgstr ""
 msgid ""
 "Bus16-Split-quarter: Split the 16-bits bus into four buses of the same size"
 msgstr ""
+"Bus 16-Split-quarter: Separar el bus de 16 bits en cuatro buses del mismo "
+"tamaño"
 
 #: translation.js:191
 msgid "Bus16-Join-quarter: Join the four same buses into an 16-bits Bus"
-msgstr ""
+msgstr "Bus 16-Join-quarter: Unir las cuatro buses en uno de 16-bits"
 
 #: translation.js:192
 msgid "Inc1-16bit: Increment a 16-bits number by one"
@@ -915,7 +924,7 @@ msgstr ""
 
 #: translation.js:193
 msgid "AdderK-16bit: Adder of 16-bit operand and 16-bit constant"
-msgstr ""
+msgstr "AdderK-16bit: Sumador de un operando y una constante de 16 bits"
 
 #: translation.js:194
 msgid "Generic: 16-bits generic constant"
@@ -923,27 +932,29 @@ msgstr ""
 
 #: translation.js:195
 msgid "Adder-16bits: Adder of two operands of 16 bits"
-msgstr ""
+msgstr "Adder-16bits: Sumador de dos operandos de 16 bits"
 
 #: translation.js:196
 msgid "Bus16-Split-half: Split the 16-bits bus into two buses of the same size"
 msgstr ""
+"Bus16-Split-half: Dividir el bus de 16 bits en dos buses del mismo tamaño"
 
 #: translation.js:197
 msgid "Adder-8bits: Adder of two operands of 8 bits"
-msgstr ""
+msgstr "Adder-8bits: Sumador de dos operandos de 8 bits"
 
 #: translation.js:198
 msgid "Adder-4bits: Adder of two operands of 4 bits"
-msgstr ""
+msgstr "Adder-4bits: Sumador de dos operandos de 4 bits"
 
 #: translation.js:199
 msgid "Adder-1bit: Adder of two operands of 1 bit"
-msgstr ""
+msgstr "Adder-1bit: Sumador de dos operandos de 1 bit"
 
 #: translation.js:200
 msgid "AdderC-1bit: Adder of two operands of 1 bit plus the carry in"
 msgstr ""
+"AdderC-1bit: Sumador de dos operandos de 1 bit más el acarreo de entrada"
 
 #: translation.js:201
 msgid "XOR gate: two bits input xor gate"
@@ -956,14 +967,16 @@ msgstr ""
 #: translation.js:203
 msgid "AdderC-4bits: Adder of two operands of 4 bits and Carry in"
 msgstr ""
+"AdderC-4bit: Sumador de dos operandos de 4 bit más el acarreo de entrada"
 
 #: translation.js:204
 msgid "AdderC-8bits: Adder of two operands of 8 bits and Carry in"
 msgstr ""
+"AdderC-8bit: Sumador de dos operandos de 8 bit más el acarreo de entrada"
 
 #: translation.js:205
 msgid "Bus16-Join-half: Join the two same halves into an 16-bits Bus"
-msgstr ""
+msgstr "Bus 16-Join-half: Unir las dos mitades en un bus de 16-bits"
 
 #: translation.js:206
 msgid ""
@@ -1416,7 +1429,7 @@ msgstr ""
 
 #: translation.js:284
 msgid "Bus3-Split-all: Split the 3-bits bus into three wires"
-msgstr ""
+msgstr "Bus3-Split-all:  Dividir el bus de 3-bits en tres cables"
 
 #: translation.js:285
 msgid "Inc1-3bit: Increment a 3-bits number by one"
@@ -1424,7 +1437,7 @@ msgstr ""
 
 #: translation.js:286
 msgid "AdderK-3bit: Adder of 3-bit operand and 3-bit constant"
-msgstr ""
+msgstr "AdderK-3bit: Sumador de un operando y una constante de 3 bits"
 
 #: translation.js:287
 msgid "Generic: 3-bits generic constant (0-7)"
@@ -1432,7 +1445,7 @@ msgstr ""
 
 #: translation.js:288
 msgid "Adder-3bits: Adder of two operands of 3 bits"
-msgstr ""
+msgstr "Adder-3bits: Sumador de dos operandos de 3 bits"
 
 #: translation.js:289
 msgid ""
@@ -1715,7 +1728,7 @@ msgstr ""
 
 #: translation.js:377
 msgid "Bus4-Join-half: Join the two buses into a 4-bits Bus"
-msgstr ""
+msgstr "Bus4-Join-half: Agrupar los dos buses en uno de 4-bits"
 
 #: translation.js:378
 msgid "OR-Op2: Or operation between two numbers of 2 bits"
@@ -1785,12 +1798,16 @@ msgid ""
 "AND-Busen-8: Enable a 8-bits bus. When the enable signal is 0, the output is "
 "0"
 msgstr ""
+"AND-Busen-8: Habilitar un bus de 8-bits. Cuando la señal de enable es 0, la "
+"salida es 0"
 
 #: translation.js:390
 msgid ""
 "AND-Busen-3: Enable a 3-bits bus. When the enable signal is 0, the output is "
 "0"
 msgstr ""
+"AND-Busen-3: Habilitar un bus de 3-bits. Cuando la señal de enable es 0, la "
+"salida es 0"
 
 #: translation.js:391
 msgid "8-3 Encoder-Bus"
