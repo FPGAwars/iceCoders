@@ -559,51 +559,51 @@ msgstr ""
 
 #: translation.js:116
 msgid "01-Encoder-2-1"
-msgstr ""
+msgstr "01-Codificador-2-1"
 
 #: translation.js:117
 msgid "02-Encoder-2-1-Bus-neg"
-msgstr ""
+msgstr "02-Codificador-2-1-Bus-neg"
 
 #: translation.js:118
 msgid "03-Encoder-4-2"
-msgstr ""
+msgstr "03-Codificador-4-2"
 
 #: translation.js:119
 msgid "04-Encoder-4-2-Bus-neg"
-msgstr ""
+msgstr "04-Codificador-4-2-Bus-neg"
 
 #: translation.js:120
 msgid "05-Encoder-8-3"
-msgstr ""
+msgstr "05-Codificador-8-3"
 
 #: translation.js:121
 msgid "06-Encoder-8-3-Bus-neg"
-msgstr ""
+msgstr "06-Codificador-8-3-Bus-neg"
 
 #: translation.js:122
 msgid "07-Decoder-1-2"
-msgstr ""
+msgstr "07-Decodificador-1-2"
 
 #: translation.js:123
 msgid "08-Decoder-1-2-Bus-neg"
-msgstr ""
+msgstr "08-Decodificador-1-2-Bus-neg"
 
 #: translation.js:124
 msgid "09-Decoder-2-4"
-msgstr ""
+msgstr "09-Decodificador-2-4"
 
 #: translation.js:125
 msgid "10-Decoder-2-4-Bus-neg"
-msgstr ""
+msgstr "10-Decodificador-2-4-Bus-neg"
 
 #: translation.js:126
 msgid "11-Decoder-3-8"
-msgstr ""
+msgstr "11-Decodificador-3-8"
 
 #: translation.js:127
 msgid "12-Decoder-3-8"
-msgstr ""
+msgstr "12-Decodificador-3-8"
 
 #: translation.js:128
 msgid "TESTs"
@@ -611,7 +611,7 @@ msgstr ""
 
 #: translation.js:129
 msgid "00-Index"
-msgstr ""
+msgstr "00-Index"
 
 #: translation.js:130
 msgid "# INDEX: IceCoders Collection"
@@ -735,7 +735,7 @@ msgstr ""
 
 #: translation.js:158
 msgid "01-Enconder-2-1-buttons-LEDs"
-msgstr ""
+msgstr "01-Codificador-2-1-Boton-LEDs"
 
 #: translation.js:159
 msgid ""
@@ -771,7 +771,7 @@ msgstr ""
 
 #: translation.js:166
 msgid "02-Encoder-2-1-Bus-neg-with-buttons-LEDs"
-msgstr ""
+msgstr "02-Codificador-2-1-Bus-neg-con-botones-LEDs"
 
 #: translation.js:167
 msgid ""
@@ -843,7 +843,7 @@ msgstr ""
 
 #: translation.js:178
 msgid "03-Encoder-2-4-with-buttons-LEDs"
-msgstr ""
+msgstr "03-Codificador-2-4-con-botones-LEDs"
 
 #: translation.js:179
 msgid "Button-tic: Configurable button that emits a tic when it is pressed"
@@ -873,11 +873,11 @@ msgstr ""
 
 #: translation.js:185
 msgid "1bit register (implemented in verilog)"
-msgstr ""
+msgstr "Registro de 1 bit (implementado en Verilog)"
 
 #: translation.js:186
 msgid "16-bits Syscounter with reset"
-msgstr ""
+msgstr "Contador del sistema de 16 bits con reset"
 
 #: translation.js:187
 msgid "DFF-rst-x16: 16 D flip-flops in paralell with reset"
@@ -973,7 +973,7 @@ msgstr ""
 
 #: translation.js:209
 msgid "1-bit generic constant (0/1)"
-msgstr ""
+msgstr "Constante genérica de 1-bit (0/1)"
 
 #: translation.js:210
 msgid "Reg: 1-Bit register"
@@ -1267,7 +1267,7 @@ msgstr ""
 
 #: translation.js:253
 msgid "04-Encoder-4-2-with-buttons-LEDs"
-msgstr ""
+msgstr "04-Codificador-4-2-con-Botones-LEDs"
 
 #: translation.js:254
 msgid "4 FPGA internal pull-ups"
@@ -1285,7 +1285,7 @@ msgstr ""
 
 #: translation.js:257 translation.js:264
 msgid "05-Encoder-8-3-with-buttons-LEDs"
-msgstr ""
+msgstr "05-Codificador-8-3-con-botones-LEDs"
 
 #: translation.js:258
 msgid "SReg-right-x8: 8 bits Shift register (to the right)"
@@ -1335,7 +1335,7 @@ msgstr ""
 
 #: translation.js:268
 msgid "07-Decoder-1-2-button-LED"
-msgstr ""
+msgstr "07-Decodificador-1-2-Boton-LED"
 
 #: translation.js:269
 msgid ""
@@ -1351,7 +1351,7 @@ msgstr ""
 
 #: translation.js:271
 msgid "08-Decoder-1-2-Bus-neg-button-LED"
-msgstr ""
+msgstr "08-Decodificador-1-2-Bus-neg-Boton-LED"
 
 #: translation.js:272
 msgid ""
@@ -1367,7 +1367,7 @@ msgstr ""
 
 #: translation.js:274
 msgid "09-Decoder-2-4-button-LEDs"
-msgstr ""
+msgstr "09-Decodificador-2-4-Boton-LEDs"
 
 #: translation.js:275
 msgid ""
@@ -1379,7 +1379,7 @@ msgstr ""
 
 #: translation.js:277
 msgid "10-Decoder-2-4-Bus-neg-buttons-LEDs"
-msgstr ""
+msgstr "10-Decodificador-2-4-Bus-neg-boton-LEDs"
 
 #: translation.js:278
 msgid ""
@@ -1395,7 +1395,7 @@ msgstr ""
 
 #: translation.js:281
 msgid "11-Decoder-3-8-button-LEDs"
-msgstr ""
+msgstr "11-Decodificador-3-8-Boton-LEDs"
 
 #: translation.js:282
 msgid "Counter-x03: 3-bits counter"
@@ -1449,7 +1449,7 @@ msgstr ""
 
 #: translation.js:293
 msgid "12-Decoder-3-8-bus-neg-buttons-LEDs"
-msgstr ""
+msgstr "12-Decodificador-3-8-bus-neg-botones-LEDs"
 
 #: translation.js:294
 msgid ""
@@ -1492,7 +1492,7 @@ msgstr ""
 #: translation.js:337 translation.js:339 translation.js:341 translation.js:343
 #: translation.js:405 translation.js:407 translation.js:411 translation.js:414
 msgid "01-manual-testing"
-msgstr ""
+msgstr "01-Prueba-manual"
 
 #: translation.js:308
 msgid ""
@@ -1633,7 +1633,7 @@ msgstr ""
 #: translation.js:355 translation.js:360 translation.js:362 translation.js:364
 #: translation.js:373 translation.js:388 translation.js:394 translation.js:396
 msgid "01-Manual-testing"
-msgstr ""
+msgstr "01-Prueba-manual"
 
 #: translation.js:356
 msgid "4-2 Encoder"
