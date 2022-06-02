@@ -11,7 +11,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 3.0.1\n"
+"X-Generator: Poedit 2.3\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SearchPath-0: translation.js\n"
 
@@ -564,51 +564,51 @@ msgstr ""
 
 #: translation.js:132
 msgid "**Decoder-1-2**"
-msgstr ""
+msgstr "**Decodificador-1-2**"
 
 #: translation.js:133
 msgid "**Decoder-1-2-neg**"
-msgstr ""
+msgstr "**Decodificador-1-2-neg**"
 
 #: translation.js:134
 msgid "**Decoder-1-2-Bus**"
-msgstr ""
+msgstr "**Decodificador-1-2-Bus**"
 
 #: translation.js:135
 msgid "**Decoder-1-2-Bus-neg**"
-msgstr ""
+msgstr "**Decodificador-1-2-Bus-neg**"
 
 #: translation.js:136
 msgid "**Decoder-2-4**"
-msgstr ""
+msgstr "**Decodificador-2-4**"
 
 #: translation.js:137
 msgid "**Decoder-2-4-neg**"
-msgstr ""
+msgstr "**Decodificador-2-4-neg**"
 
 #: translation.js:138
 msgid "**Decoder-2-4-Bus**"
-msgstr ""
+msgstr "**Decodificador-2-4-Bus**"
 
 #: translation.js:139
 msgid "**Decoder-2-4-Bus-neg**"
-msgstr ""
+msgstr "**Decodificador-2-4-Bus-neg**"
 
 #: translation.js:140
 msgid "**Decoder-3-8**"
-msgstr ""
+msgstr "**Decodificador-3-8**"
 
 #: translation.js:141
 msgid "**Decoder-3-8-neg**"
-msgstr ""
+msgstr "**Decodificador-3-8-neg**"
 
 #: translation.js:142
 msgid "**Decoder-3-8-bus**"
-msgstr ""
+msgstr "**Decodificador-3-8-bus**"
 
 #: translation.js:143
 msgid "**Decoder-3-8-bus-neg**"
-msgstr ""
+msgstr "**Decodificador-3-8-bus-neg**"
 
 #: translation.js:144
 msgid "## ENCODERS "
@@ -616,51 +616,51 @@ msgstr ""
 
 #: translation.js:145
 msgid "**Encoder 2-1**"
-msgstr ""
+msgstr "**Codificador 2-1**"
 
 #: translation.js:146
 msgid "**Encoder 2-1-bus**"
-msgstr ""
+msgstr "**Codificador 2-1-bus**"
 
 #: translation.js:147
 msgid "**Encoder 2-1-neg**"
-msgstr ""
+msgstr "**Codificador 2-1-neg**"
 
 #: translation.js:148
 msgid "**Encoder 2-1-bus-neg**"
-msgstr ""
+msgstr "**Codificador 2-1-bus-neg**"
 
 #: translation.js:149
 msgid "**Encoder 4-2**"
-msgstr ""
+msgstr "**Codificador 4-2**"
 
 #: translation.js:150
 msgid "**Encoder 4-2-Bus**"
-msgstr ""
+msgstr "**Codificador 4-2-Bus**"
 
 #: translation.js:151
 msgid "**Encoder 4-2-Neg**"
-msgstr ""
+msgstr "**Codificador 4-2-Neg**"
 
 #: translation.js:152
 msgid "**Encoder 4-2-Bus-eg**"
-msgstr ""
+msgstr "**Codificador 4-2-Bus-eg**"
 
 #: translation.js:153
 msgid "**Encoder-3-8**"
-msgstr ""
+msgstr "**Codificador-3-8**"
 
 #: translation.js:154
 msgid "**Encoder-3-8-neg**"
-msgstr ""
+msgstr "**Codificador-3-8-neg**"
 
 #: translation.js:155
 msgid "**Encoder 8-3-Bus**"
-msgstr ""
+msgstr "**Codificador 8-3-Bus**"
 
 #: translation.js:156
 msgid "**Encoder 8-3-Bus-eg**"
-msgstr ""
+msgstr "**Codificador 8-3-Bus-neg**"
 
 #: translation.js:157 translation.js:165 translation.js:177 translation.js:252
 #: translation.js:256 translation.js:263 translation.js:267 translation.js:270
@@ -696,7 +696,7 @@ msgstr ""
 
 #: translation.js:162
 msgid "**2-1 Encoder**"
-msgstr ""
+msgstr "**2-1 Codificador**"
 
 #: translation.js:163
 msgid "Input 1"
@@ -995,6 +995,10 @@ msgid ""
 "There is no delay between the arrival of a rising edge  \n"
 "and its detection"
 msgstr ""
+"**Delay**: 0 ciclos de reloj \n"
+"\n"
+"No hay retraso entre la llegada del flanco de subida \n"
+"y su detección"
 
 #: translation.js:227
 msgid "Parameter: Initial value"
@@ -1644,7 +1648,7 @@ msgstr ""
 
 #: translation.js:409
 msgid "**2-1 Encoder-Bus**"
-msgstr ""
+msgstr "**2-1 Codificador-Bus**"
 
 #: translation.js:412
 msgid ""
