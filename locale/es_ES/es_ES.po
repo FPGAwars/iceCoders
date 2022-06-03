@@ -17,31 +17,33 @@ msgstr ""
 
 #: translation.js:10 translation.js:295
 msgid "Decoders"
-msgstr ""
+msgstr "Decodificadores"
 
 #: translation.js:11 translation.js:296
 msgid "Encoders"
-msgstr ""
+msgstr "Codificadores"
 
 #: translation.js:12 translation.js:32
 msgid "Decod-1-2"
-msgstr ""
+msgstr "Decodificador-1-2"
 
 #: translation.js:13 translation.js:47
 msgid "Decod-2-4"
-msgstr ""
+msgstr "Decodificador-2-4"
 
 #: translation.js:14 translation.js:70
 msgid "Decod-3-8"
-msgstr ""
+msgstr "Decodificador-3-8"
 
 #: translation.js:15
 msgid "Decod-1-2-bus-neg"
-msgstr ""
+msgstr "Decodificador-1-2bus-neg"
 
 #: translation.js:16
 msgid "Decoder-1-2-bus-neg:  1 to 2 decoder. Output bus. Active low"
 msgstr ""
+"Decodificador-1-2-bus-neg: Decodificador de 1 a 2. Salida de Bus activa a "
+"nivel bajo"
 
 #: translation.js:17
 msgid "Bus2-Join-all: Joint two wires into a 2-bits Bus"
@@ -61,7 +63,7 @@ msgstr ""
 
 #: translation.js:21
 msgid "Decoder-1-2:  1 to 2 decoder"
-msgstr ""
+msgstr "Decoder-1-2: Decodificador de 1 a 2"
 
 #: translation.js:22
 msgid "Input"
@@ -89,19 +91,19 @@ msgstr ""
 
 #: translation.js:25
 msgid "Decod-1-2-bus"
-msgstr ""
+msgstr "Decodificador-1-2-bus"
 
 #: translation.js:26
 msgid "Decoder-1-2-bus:  1 to 2 decoder. Output bus"
-msgstr ""
+msgstr "Decoder-1-2-bus: Decodificador de 1 a 2. Salida de bus"
 
 #: translation.js:27
 msgid "Decod-1-2-neg"
-msgstr ""
+msgstr "Decodificador-1-2-neg"
 
 #: translation.js:28
 msgid "Decoder-1-2:  1 to 2 decoder. The outputs are active low"
-msgstr ""
+msgstr "Decoder-1-2: Decodificador de 1 a 2. Salidas activas a nivel bajo"
 
 #: translation.js:29
 msgid ""
@@ -121,19 +123,19 @@ msgstr ""
 
 #: translation.js:30
 msgid "Decod-1-2-verilog"
-msgstr ""
+msgstr "Decodificador-1-2-verilog"
 
 #: translation.js:31
 msgid "Decoder-1-2:  1 to 2 decoder. Verilog implementation"
-msgstr ""
+msgstr "Decoder-1-2: Decodificador de 1 a 2. Implementacion en Verilog"
 
 #: translation.js:33
 msgid "Decod-2-4-bus-neg"
-msgstr ""
+msgstr "Decodificador-2-4-bus-neg"
 
 #: translation.js:34
 msgid "Decoder-2-4:  2 to 4 decoder. Output bus. Active low"
-msgstr ""
+msgstr "Decoder-2-4: Decodificador de 2 a 4. Salida de bus activa a nivel bajo"
 
 #: translation.js:35
 msgid "not-x4: 4-bits not gate"
@@ -149,11 +151,11 @@ msgstr "Bus4-Join-all: Agrupar todos los cables en un bus de 4-bits"
 
 #: translation.js:38
 msgid "Decoder-2-4:  2 to 4 decoder. Output bus"
-msgstr ""
+msgstr "Cecoder-2-4: Decodificador de 2 a 4. Salida de bus"
 
 #: translation.js:39
 msgid "Decoder-2-4:  2 to 4 binary decoder"
-msgstr ""
+msgstr "Decodificador-2-4: Decodificador binario de 2 a 4"
 
 #: translation.js:40
 msgid "Two bits input And gate"
@@ -183,31 +185,31 @@ msgstr ""
 
 #: translation.js:42
 msgid "Decod-2-4-bus"
-msgstr ""
+msgstr "Decodificador-2-4-bus"
 
 #: translation.js:43
 msgid "Decod-2-4-neg"
-msgstr ""
+msgstr "Decodificador-2-4-neg"
 
 #: translation.js:44
 msgid "Decoder-2-4-neg:  2 to 4 decoder. The outputs are active low"
-msgstr ""
+msgstr "Decoder-2-4-neg: Decodificador de 2 a 4. Salidas activas a nivel bajo"
 
 #: translation.js:45
 msgid "Decod-2-4-verilog"
-msgstr ""
+msgstr "Decodificador-2-4-verilog"
 
 #: translation.js:46
 msgid "Decoder-2-4:  2 to 4 binary decoder. Verilog implementation"
-msgstr ""
+msgstr "Decoder-2-4: Decodificador binario de 2 a 4. Implementación en Verilog"
 
 #: translation.js:48
 msgid "Decod-3-8-bus-neg"
-msgstr ""
+msgstr "Decodificador 3-8-bus-neg"
 
 #: translation.js:49
 msgid "Decoder-3-8:  3 to 8 decoder. Output bus. Outputs are active low"
-msgstr ""
+msgstr "Decoder-3-8: Decodificador de 3 a 8. Salida de bus activa a nivel bajo"
 
 #: translation.js:50
 msgid "not-x8: 8-bits not gate"
@@ -216,22 +218,23 @@ msgstr ""
 #: translation.js:51
 msgid "Bus8-Split-half: Split the 8-bits bus into two buses of the same size"
 msgstr ""
+"Bus8-Split-half: Separar el bus de 8 bits en dos buses del mismo tamaño"
 
 #: translation.js:52
 msgid "Bus8-Join-half: Join the two same halves into an 8-bits Bus"
-msgstr ""
+msgstr "Bus8-Join-half: Agrupar las dos mitades en un bus de 8 bits"
 
 #: translation.js:53
 msgid "Decoder-3-8:  3 to 8 decoder. Output bus"
-msgstr ""
+msgstr "Decoder-3-8: Decodificador de 3 a 8. Salida de bus"
 
 #: translation.js:54
 msgid "Bus8-Join-all: Join all the wires into a 8-bits Bus"
-msgstr ""
+msgstr "Bus8-Join-all: Agrupar todos los cables en un bus de 8-bits"
 
 #: translation.js:55
 msgid "Decoder-3-8:  3 to 8 decoder"
-msgstr ""
+msgstr "Decoder-3-8: Decodificador de 3 a 8"
 
 #: translation.js:56
 msgid "Bus3-Split-1-2: Split the 3-bits bus into two: 1-bit and 2-bits buses"
@@ -240,7 +243,7 @@ msgstr ""
 
 #: translation.js:57
 msgid "Decoder-2-4:  2 to 4 decoder"
-msgstr ""
+msgstr "Decoder-2-4: Decodificador de 2 a 4"
 
 #: translation.js:58
 msgid ""
@@ -316,7 +319,7 @@ msgstr ""
 
 #: translation.js:62
 msgid "Enable input"
-msgstr ""
+msgstr "Entrada de habilitación"
 
 #: translation.js:63
 msgid "Bus input"
@@ -328,39 +331,39 @@ msgstr "Salida de bus"
 
 #: translation.js:65
 msgid "Decod-3-8-bus"
-msgstr ""
+msgstr "Decodificador-3-8-bus"
 
 #: translation.js:66
 msgid "Decod-3-8-neg"
-msgstr ""
+msgstr "Decodificador-3-8-neg"
 
 #: translation.js:67
 msgid "Decoder-3-8:  3 to 8 decoder. Outputs are active low"
-msgstr ""
+msgstr "Decoder-3-8: Decodificador de 3 a 8. Salidas activas a nivel bajo"
 
 #: translation.js:68
 msgid "Decod-3-8-verilog"
-msgstr ""
+msgstr "Decodificador-3-8-verilog"
 
 #: translation.js:69
 msgid "Decoder-3-8:  3 to 8 decoder. Verilog implementation"
-msgstr ""
+msgstr "Decoder-3-8: Decodificador de 3 a 8. Implementación en Verilog"
 
 #: translation.js:71
 msgid "Encoders-2-1"
-msgstr ""
+msgstr "Codificadores-2-1"
 
 #: translation.js:72
 msgid "Encoders-4-2"
-msgstr ""
+msgstr "Codificadores-4-2"
 
 #: translation.js:73
 msgid "Encoders-8-3"
-msgstr ""
+msgstr "Codificadores-8-3"
 
 #: translation.js:74
 msgid "encoder-2-1-bus-neg"
-msgstr ""
+msgstr "Codificador-2-1-bus-neg"
 
 #: translation.js:75
 msgid ""
@@ -383,7 +386,7 @@ msgstr ""
 
 #: translation.js:79
 msgid "Encoder-2-1"
-msgstr ""
+msgstr "Codificador-2-1"
 
 #: translation.js:80
 msgid "2-1 Encoder"
@@ -411,11 +414,11 @@ msgstr ""
 
 #: translation.js:82
 msgid "encoder-2-1-bus"
-msgstr ""
+msgstr "Codificador-2-1-bus"
 
 #: translation.js:83
 msgid "encoder-2-1-neg"
-msgstr ""
+msgstr "codificador-2-1-neg"
 
 #: translation.js:84
 msgid "A 2-to-1 encoder with active low inputs and nz (not-zero) output"
@@ -444,7 +447,7 @@ msgstr ""
 
 #: translation.js:86
 msgid "encoder-2-1-verilog"
-msgstr ""
+msgstr "codificador-2-1-verilog"
 
 #: translation.js:87
 msgid ""
@@ -455,11 +458,11 @@ msgstr ""
 
 #: translation.js:88 translation.js:347
 msgid "encoder-2-1"
-msgstr ""
+msgstr "codificador-2-1"
 
 #: translation.js:89 translation.js:350
 msgid "Encoder-4-2-Bus-neg"
-msgstr ""
+msgstr "Codificador-4-2-Bus-neg"
 
 #: translation.js:90
 msgid ""
@@ -487,11 +490,11 @@ msgstr ""
 
 #: translation.js:95 translation.js:349
 msgid "Encoder-4-2-Bus"
-msgstr ""
+msgstr "Codificador-4-2-Bus"
 
 #: translation.js:96
 msgid "Encoder-4-2-Verilog"
-msgstr ""
+msgstr "Condificador-4-2-Verilog"
 
 #: translation.js:97
 msgid "4 to 2 binary Enconder with priority. Verilog implementation"
@@ -499,7 +502,7 @@ msgstr "Codificador binario 4-2 con prioridad. Implementaión en verilog"
 
 #: translation.js:98 translation.js:351
 msgid "Encoder-4-2-neg"
-msgstr ""
+msgstr "Codificador-4-2-neg"
 
 #: translation.js:99
 msgid "4 to 2 binary Enconder with priority. Low active inputs"
@@ -507,11 +510,11 @@ msgstr "Codificador binario 4-2 con prioridad. Entradas activas a nivel bajo"
 
 #: translation.js:100 translation.js:345 translation.js:348
 msgid "Encoder-4-2"
-msgstr ""
+msgstr "Codificador-4-2"
 
 #: translation.js:101 translation.js:368
 msgid "Encoder-8-3-Bus-neg"
-msgstr ""
+msgstr "Codificador-8-3-Bus-neg"
 
 #: translation.js:102
 msgid ""
@@ -535,7 +538,7 @@ msgstr "Multiplexor 2-1 (canales de 2 bits)"
 
 #: translation.js:106
 msgid "Bus8-Split-all: Split the 8-bits bus into its wires"
-msgstr ""
+msgstr "Bus8-Split-all: Separar el bus de 8 bits en sus 8 cables"
 
 #: translation.js:107
 msgid "Bus3-Join-all: Joint three wires into a 3-bits Bus"
@@ -543,19 +546,19 @@ msgstr "Bus3-Join-all: Agrupar tres cables en un bus de 3-bits"
 
 #: translation.js:108
 msgid "Channel A"
-msgstr ""
+msgstr "Canal A"
 
 #: translation.js:109
 msgid "Channel B"
-msgstr ""
+msgstr "Canal B"
 
 #: translation.js:110 translation.js:367
 msgid "Encoder-8-3-Bus"
-msgstr ""
+msgstr "Codificador-8-3-Bus"
 
 #: translation.js:111 translation.js:369
 msgid "Encoder-8-3-neg"
-msgstr ""
+msgstr "Codificador-8-3-neg"
 
 #: translation.js:112
 msgid "8 to 3 binary Enconder with priority. Active low inputs"
@@ -563,7 +566,7 @@ msgstr "Codificador binario 8-3 con prioridad. Entradas activas a nivel bajo"
 
 #: translation.js:113
 msgid "Encoder-8-3-verilog"
-msgstr ""
+msgstr "Codificador-8-3-verilog"
 
 #: translation.js:114
 msgid "8 to 3 binary Enconder with priority. Implemented in Verilog"
@@ -571,7 +574,7 @@ msgstr "Codificador binario 8-3 con prioridad. Implementado en verilog"
 
 #: translation.js:115 translation.js:346 translation.js:366
 msgid "Encoder-8-3"
-msgstr ""
+msgstr "Codificador-8-3"
 
 #: translation.js:116
 msgid "01-Encoder-2-1"
@@ -817,7 +820,7 @@ msgstr ""
 
 #: translation.js:170
 msgid "Buttons"
-msgstr ""
+msgstr "Botones"
 
 #: translation.js:171
 msgid "Pull-ups"
@@ -825,7 +828,7 @@ msgstr ""
 
 #: translation.js:172
 msgid "Encoder-2-1-bus-neg"
-msgstr ""
+msgstr "Codificador-2-1-bus-neg"
 
 #: translation.js:173
 msgid ""
@@ -863,7 +866,7 @@ msgstr "03-Codificador-2-4-con-botones-LEDs"
 
 #: translation.js:179
 msgid "Button-tic: Configurable button that emits a tic when it is pressed"
-msgstr ""
+msgstr "Button-tic: Botón configurable que emite un tic cuando se aprieta"
 
 #: translation.js:180
 msgid ""
@@ -873,11 +876,11 @@ msgstr ""
 
 #: translation.js:181
 msgid "D Flip-flop (verilog implementation)"
-msgstr ""
+msgstr "Biestable D (Implementación en Verilog)"
 
 #: translation.js:182
 msgid "Configurable button (pull-up on/off. Not on/off)"
-msgstr ""
+msgstr "Botón configurable (pull-up on/off. NOT on/off)"
 
 #: translation.js:183
 msgid "FPGA internal pull-up configuration on the input port"
@@ -897,15 +900,16 @@ msgstr "Contador del sistema de 16 bits con reset"
 
 #: translation.js:187
 msgid "DFF-rst-x16: 16 D flip-flops in paralell with reset"
-msgstr ""
+msgstr "DFF-rst-x16: 16 Biestables De en paralelo con reset"
 
 #: translation.js:188
 msgid "DFF-rst-x04: Three D flip-flops in paralell with reset"
-msgstr ""
+msgstr "DFF-rst-x04: Tres biestbles D en paralelo con reset"
 
 #: translation.js:189
 msgid "DFF-rst-x01: D Flip flop with reset input. When rst=1, the DFF is 0"
 msgstr ""
+"DFF-rst-x01: Biestble D con entrada de reset. Cuando rst=1, el biestable es 0"
 
 #: translation.js:190
 msgid ""
@@ -962,7 +966,7 @@ msgstr ""
 
 #: translation.js:202
 msgid "Constant bit 0"
-msgstr ""
+msgstr "Bit 0 constante"
 
 #: translation.js:203
 msgid "AdderC-4bits: Adder of two operands of 4 bits and Carry in"
@@ -983,6 +987,8 @@ msgid ""
 "Edges detector. It generates a 1-period pulse (tic) when either a rising "
 "edge or a falling edge is detected on the input"
 msgstr ""
+"Detector de flancos. Genera un pulso de 1 ciclo (tic) cuando llega un flanco "
+"de subida o uno de bajada por la entrada"
 
 #: translation.js:207
 msgid "Sync 1-bit input with the system clock domain"
@@ -1035,7 +1041,7 @@ msgstr ""
 
 #: translation.js:216
 msgid "Button state signal"
-msgstr ""
+msgstr "Señal de estado del Pulsador"
 
 #: translation.js:217
 msgid "Tic: button pressed"
@@ -1075,6 +1081,8 @@ msgid ""
 "Current signal  \n"
 "state"
 msgstr ""
+"Estado actual de la  \n"
+"señal"
 
 #: translation.js:224
 msgid ""
@@ -1145,11 +1153,11 @@ msgstr ""
 
 #: translation.js:233
 msgid "Debouncing stage"
-msgstr ""
+msgstr "Etapa antirrebotes"
 
 #: translation.js:234
 msgid "Edge detector"
-msgstr ""
+msgstr "Detector de flancos"
 
 #: translation.js:235
 msgid ""
@@ -1202,7 +1210,7 @@ msgstr ""
 
 #: translation.js:240
 msgid "Counter"
-msgstr ""
+msgstr "Contador"
 
 #: translation.js:241
 msgid "Initial value"
@@ -1216,7 +1224,7 @@ msgstr ""
 
 #: translation.js:243
 msgid "Data input"
-msgstr ""
+msgstr "Entrada de datos"
 
 #: translation.js:244
 msgid ""
@@ -1286,6 +1294,8 @@ msgid ""
 "D Flip-flip\n"
 "(System)"
 msgstr ""
+"Biestable D\n"
+"(Sistema)"
 
 #: translation.js:253
 msgid "04-Encoder-4-2-with-buttons-LEDs"
@@ -1413,7 +1423,7 @@ msgstr ""
 
 #: translation.js:279
 msgid "Decoder 2-4-Bus-neg"
-msgstr ""
+msgstr "Decodificador-2-4-Bus-neg"
 
 #: translation.js:281
 msgid "11-Decoder-3-8-button-LEDs"
@@ -1421,7 +1431,7 @@ msgstr "11-Decodificador-3-8-Boton-LEDs"
 
 #: translation.js:282
 msgid "Counter-x03: 3-bits counter"
-msgstr ""
+msgstr "Counter-x03: Contador de 3 bits"
 
 #: translation.js:283
 msgid "Reg-x03: 3-bits register"
@@ -1483,31 +1493,31 @@ msgstr ""
 
 #: translation.js:297
 msgid "Decoders-1-2"
-msgstr ""
+msgstr "Decodificadores-1-2"
 
 #: translation.js:298
 msgid "Decoders-2-4"
-msgstr ""
+msgstr "Decodificadores-2-4"
 
 #: translation.js:299
 msgid "Decoders-3-8"
-msgstr ""
+msgstr "Decodificadores-3-8"
 
 #: translation.js:300
 msgid "Decoder-1-2"
-msgstr ""
+msgstr "Decodificador-1-2"
 
 #: translation.js:301
 msgid "Decoder-1-2-Bus"
-msgstr ""
+msgstr "Decodificador-1-2-Bus"
 
 #: translation.js:302
 msgid "Decoder-1-2-Bus-neg"
-msgstr ""
+msgstr "Decodificador-1-2-Bus-neg"
 
 #: translation.js:303
 msgid "Decoder-1-2-neg"
-msgstr ""
+msgstr "Decodificador-1-2-neg"
 
 #: translation.js:307 translation.js:309 translation.js:312 translation.js:314
 #: translation.js:322 translation.js:324 translation.js:326 translation.js:328
@@ -1566,19 +1576,19 @@ msgstr ""
 
 #: translation.js:316
 msgid "Decoder-2-4"
-msgstr ""
+msgstr "Decoder-2-4"
 
 #: translation.js:317
 msgid "Decoder-2-4-Bus"
-msgstr ""
+msgstr "Decoder-2-4-Bus"
 
 #: translation.js:318
 msgid "Decoder-2-4-Bus-neg"
-msgstr ""
+msgstr "Decoder-2-4-Bus-neg"
 
 #: translation.js:319
 msgid "Decoder-2-4-neg"
-msgstr ""
+msgstr "Decoder-2-4-neg"
 
 #: translation.js:323
 msgid ""
@@ -1614,19 +1624,19 @@ msgstr ""
 
 #: translation.js:330
 msgid "Decoder-3-8"
-msgstr ""
+msgstr "Decodificador-3-8"
 
 #: translation.js:331
 msgid "Decoder-3-8-Bus"
-msgstr ""
+msgstr "Decodificador-3-8-Bus"
 
 #: translation.js:332
 msgid "Decoder-3-8-Bus-neg"
-msgstr ""
+msgstr "Decodificador-3-8-Bus-neg"
 
 #: translation.js:333
 msgid "Decoder-3-8-neg"
-msgstr ""
+msgstr "Decodificador-3-8-neg"
 
 #: translation.js:338
 msgid ""
@@ -1725,6 +1735,7 @@ msgstr ""
 #: translation.js:376
 msgid "Bus4-Split-half: Split the 4-bits bus into two of the same size"
 msgstr ""
+"Bus4-Split-half: Dividir el bus de 4-bits en dos buses del mismo tamaño"
 
 #: translation.js:377
 msgid "Bus4-Join-half: Join the two buses into a 4-bits Bus"
@@ -1736,7 +1747,7 @@ msgstr ""
 
 #: translation.js:379
 msgid "Copy-8: Copy the input wire and creates a 8 bits Bus output"
-msgstr ""
+msgstr "Copy-8: Copiar el cable de entrada y crear un bus de salida de 8 bits"
 
 #: translation.js:380
 msgid "8-3 Encoder-Bus-neg"
@@ -1770,6 +1781,9 @@ msgid ""
 "the input to the  \n"
 "Encoder"
 msgstr ""
+"Habilitar/deshabilitar  \n"
+"la entrada al  \n"
+"codificador"
 
 #: translation.js:384
 msgid ""
@@ -1777,6 +1791,9 @@ msgid ""
 "* Not pressed: Encoder enabled\n"
 "* Pressed: Encoder disabled"
 msgstr ""
+"Estado del botón:\n"
+"* No apretado: Codificador habilitado\n"
+"* Apretado: Codificador deshabilitado"
 
 #: translation.js:385
 msgid ""
@@ -1859,19 +1876,19 @@ msgstr ""
 
 #: translation.js:399
 msgid "Encoder-2-1-Bus"
-msgstr ""
+msgstr "Codificador-2-1-Bus"
 
 #: translation.js:400
 msgid "Encoder-2-1-Bus-neg"
-msgstr ""
+msgstr "Codificador-2-1-Bus-neg"
 
 #: translation.js:401
 msgid "Encoder-2-1-neg"
-msgstr ""
+msgstr "Codificador-2-1-neg"
 
 #: translation.js:402
 msgid "enconder-2-1"
-msgstr ""
+msgstr "codificadores-2-1"
 
 #: translation.js:406
 msgid ""
