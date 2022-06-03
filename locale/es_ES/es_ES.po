@@ -51,7 +51,7 @@ msgstr "Bus2-Join-all: Agrupar dos cables en un bus de 2-bits"
 
 #: translation.js:18
 msgid "not-x2: 2-bits not gate"
-msgstr ""
+msgstr "not-x2: puerta NOT de 2-bits"
 
 #: translation.js:19
 msgid "Bus2-Split-all: Split the 2-bits bus into two wires"
@@ -59,7 +59,7 @@ msgstr "Bus2-Split-all: Separar el bus de 2-bits en dos cables"
 
 #: translation.js:20
 msgid "NOT gate (Verilog implementation)"
-msgstr ""
+msgstr "Puerta NOT (Implementación en verilog)"
 
 #: translation.js:21
 msgid "Decoder-1-2:  1 to 2 decoder"
@@ -67,11 +67,11 @@ msgstr "Decoder-1-2: Decodificador de 1 a 2"
 
 #: translation.js:22
 msgid "Input"
-msgstr ""
+msgstr "Entrada"
 
 #: translation.js:23
 msgid "Output"
-msgstr ""
+msgstr "Salida"
 
 #: translation.js:24
 msgid ""
@@ -139,7 +139,7 @@ msgstr "Decoder-2-4: Decodificador de 2 a 4. Salida de bus activa a nivel bajo"
 
 #: translation.js:35
 msgid "not-x4: 4-bits not gate"
-msgstr ""
+msgstr "not-x4: Puerta not de 4 bits"
 
 #: translation.js:36
 msgid "Bus4-Split-all: Split the 4-bits bus into its wires"
@@ -159,7 +159,7 @@ msgstr "Decodificador-2-4: Decodificador binario de 2 a 4"
 
 #: translation.js:40
 msgid "Two bits input And gate"
-msgstr ""
+msgstr "Puerta AND de dos bits de entrada"
 
 #: translation.js:41
 msgid ""
@@ -213,7 +213,7 @@ msgstr "Decoder-3-8: Decodificador de 3 a 8. Salida de bus activa a nivel bajo"
 
 #: translation.js:50
 msgid "not-x8: 8-bits not gate"
-msgstr ""
+msgstr "not-x8: puerta NOT de 8 bits"
 
 #: translation.js:51
 msgid "Bus8-Split-half: Split the 8-bits bus into two buses of the same size"
@@ -363,7 +363,7 @@ msgstr "Codificadores-8-3"
 
 #: translation.js:74
 msgid "encoder-2-1-bus-neg"
-msgstr "Codificador-2-1-bus-neg"
+msgstr "codificador-2-1-bus-neg"
 
 #: translation.js:75
 msgid ""
@@ -382,7 +382,7 @@ msgstr "Un codificador estándarrd 2-1 con salida nz (not-zero)"
 
 #: translation.js:78
 msgid "OR2: Two bits input OR gate"
-msgstr ""
+msgstr "OR2: Puerta OR de entrada de 2 bits"
 
 #: translation.js:79
 msgid "Encoder-2-1"
@@ -414,7 +414,7 @@ msgstr ""
 
 #: translation.js:82
 msgid "encoder-2-1-bus"
-msgstr "Codificador-2-1-bus"
+msgstr "codificador-2-1-bus"
 
 #: translation.js:83
 msgid "encoder-2-1-neg"
@@ -486,7 +486,7 @@ msgstr "Multiplexor 2-1 (canales de 1 bit)"
 
 #: translation.js:94
 msgid "Mux-2-1"
-msgstr ""
+msgstr "Mux-2-1"
 
 #: translation.js:95 translation.js:349
 msgid "Encoder-4-2-Bus"
@@ -626,7 +626,7 @@ msgstr "12-Decodificador-3-8"
 
 #: translation.js:128
 msgid "TESTs"
-msgstr ""
+msgstr "TESTs"
 
 #: translation.js:129
 msgid "00-Index"
@@ -770,7 +770,7 @@ msgstr ""
 
 #: translation.js:160
 msgid "Ouput: 1-bit"
-msgstr ""
+msgstr "Salida: 1-bit"
 
 #: translation.js:161
 msgid "Active if any input is active"
@@ -782,11 +782,11 @@ msgstr "**2-1 Codificador**"
 
 #: translation.js:163
 msgid "Input 1"
-msgstr ""
+msgstr "Entrada 1"
 
 #: translation.js:164
 msgid "Input 0"
-msgstr ""
+msgstr "Entrada 0"
 
 #: translation.js:166
 msgid "02-Encoder-2-1-Bus-neg-with-buttons-LEDs"
@@ -797,12 +797,16 @@ msgid ""
 "Pull-upx2_ICE40: 2 internal pull-up configuration on the input port. ICE40 "
 "FPGA family"
 msgstr ""
+"Pull-upx2_ICE40: Configuración de dos pull-up internas en el puerto de "
+"entrada. Familia de FPGA ICE40"
 
 #: translation.js:168
 msgid ""
 "Pull-up_ICE40:: FPGA internal pull-up configuration on the input port. ICE40 "
 "FPGA family"
 msgstr ""
+"Pull-up_ICE40:: Configuración del pull-up interno de la FPGA en el puerto de "
+"entrada. FPGAs de la familia ICE40"
 
 #: translation.js:169
 msgid ""
@@ -824,7 +828,7 @@ msgstr "Botones"
 
 #: translation.js:171
 msgid "Pull-ups"
-msgstr ""
+msgstr "Pull-ups"
 
 #: translation.js:172
 msgid "Encoder-2-1-bus-neg"
@@ -835,6 +839,8 @@ msgid ""
 "The pull-ups are connected  \n"
 "by default"
 msgstr ""
+"Los pull-ups están conectados  \n"
+"por defecto"
 
 #: translation.js:174
 msgid ""
@@ -853,12 +859,16 @@ msgid ""
 "Only an FPGA pin can  \n"
 "be connected here!!!"
 msgstr ""
+"Sólo se puede conectar  \n"
+"aquí un pin de la FPGA!!!"
 
 #: translation.js:176
 msgid ""
 "The pull-up is connected  \n"
 "by default"
 msgstr ""
+"El pull-up está conectado  \n"
+"por defecto"
 
 #: translation.js:178
 msgid "03-Encoder-2-4-with-buttons-LEDs"
@@ -873,6 +883,8 @@ msgid ""
 "Rising-edge detector. It generates a 1-period pulse (tic) when a rising edge "
 "is detected on the input"
 msgstr ""
+"Detector de flanco de subida. Se genera un pulso de 1-ciclo cuando se "
+"detecta un flanco de subida en la entrada"
 
 #: translation.js:181
 msgid "D Flip-flop (verilog implementation)"
@@ -885,10 +897,11 @@ msgstr "Botón configurable (pull-up on/off. NOT on/off)"
 #: translation.js:183
 msgid "FPGA internal pull-up configuration on the input port"
 msgstr ""
+"Configuración de los pull-ups internos de la FPGA en el puerto de entrada"
 
 #: translation.js:184
 msgid "Remove the rebound on a mechanical switch"
-msgstr ""
+msgstr "Eliminar el rebote en un conmutador mecánico"
 
 #: translation.js:185
 msgid "1bit register (implemented in verilog)"
@@ -924,7 +937,7 @@ msgstr "Bus 16-Join-quarter: Unir las cuatro buses en uno de 16-bits"
 
 #: translation.js:192
 msgid "Inc1-16bit: Increment a 16-bits number by one"
-msgstr ""
+msgstr "Inc1-16bit: Incrementar un número de 16-bits en uno"
 
 #: translation.js:193
 msgid "AdderK-16bit: Adder of 16-bit operand and 16-bit constant"
@@ -932,7 +945,7 @@ msgstr "AdderK-16bit: Sumador de un operando y una constante de 16 bits"
 
 #: translation.js:194
 msgid "Generic: 16-bits generic constant"
-msgstr ""
+msgstr "Generic: Constante genérica de 16-bits"
 
 #: translation.js:195
 msgid "Adder-16bits: Adder of two operands of 16 bits"
@@ -962,7 +975,7 @@ msgstr ""
 
 #: translation.js:201
 msgid "XOR gate: two bits input xor gate"
-msgstr ""
+msgstr "XOR gate: Puerta XOR de dos bits de entrada"
 
 #: translation.js:202
 msgid "Constant bit 0"
@@ -992,12 +1005,14 @@ msgstr ""
 
 #: translation.js:207
 msgid "Sync 1-bit input with the system clock domain"
-msgstr ""
+msgstr "Sincronizar la entrada de 1-bit con el dominio del reloj del sistema"
 
 #: translation.js:208
 msgid ""
 "Select positive or negative logic for the input (0=positive, 1=negative)"
 msgstr ""
+"Seleccionar lógica positiva o negativa para la entrada (0=positiva, "
+"1=negativa)"
 
 #: translation.js:209
 msgid "1-bit generic constant (0/1)"
@@ -1005,7 +1020,7 @@ msgstr "Constante genérica de 1-bit (0/1)"
 
 #: translation.js:210
 msgid "Reg: 1-Bit register"
-msgstr ""
+msgstr "Reg: Registro de 1-bit"
 
 #: translation.js:211
 msgid "2-to-1 Multplexer (1-bit channels). Fippled version"
@@ -1030,6 +1045,8 @@ msgid ""
 "Generate the bit pattern, with a shift  \n"
 "register"
 msgstr ""
+"Generar el patrón de bits, con un registro  \n"
+"de desplazamiento"
 
 #: translation.js:214
 msgid "2-bits Encoded number"
@@ -1037,7 +1054,7 @@ msgstr "Número codificado de 2-bits"
 
 #: translation.js:215
 msgid "System clock"
-msgstr ""
+msgstr "Reloj del sistema"
 
 #: translation.js:216
 msgid "Button state signal"
@@ -1045,19 +1062,19 @@ msgstr "Señal de estado del Pulsador"
 
 #: translation.js:217
 msgid "Tic: button pressed"
-msgstr ""
+msgstr "Tic: Botón apretado"
 
 #: translation.js:218
 msgid "Rising edge detector"
-msgstr ""
+msgstr "Detector de flanco de subida"
 
 #: translation.js:219
 msgid "Pull up on/off"
-msgstr ""
+msgstr "Pull up activada/desactivada"
 
 #: translation.js:220
 msgid "Not on/off"
-msgstr ""
+msgstr "Not activada/desactivada"
 
 #: translation.js:221
 msgid ""
@@ -1074,7 +1091,7 @@ msgstr ""
 
 #: translation.js:222
 msgid "Input signal"
-msgstr ""
+msgstr "Señal de entrada"
 
 #: translation.js:223
 msgid ""
@@ -1089,6 +1106,8 @@ msgid ""
 "Signal state in the previous  \n"
 "clock cycle"
 msgstr ""
+"Estado de la señal en el ciclo  \n"
+"previo de reloj"
 
 #: translation.js:225
 msgid ""
@@ -1099,6 +1118,12 @@ msgid ""
 "\n"
 "In any other case the output is 0"
 msgstr ""
+"Si la señal actual es 1 y sus valor en  \n"
+"el ciclo anterior era 0, significa  \n"
+"que se ha detectad un flanco de subida!  \n"
+"Salida es 1\n"
+"\n"
+"En cualquier otro caso la salida es 0"
 
 #: translation.js:226
 msgid ""
@@ -1114,11 +1139,11 @@ msgstr ""
 
 #: translation.js:227
 msgid "Parameter: Initial value"
-msgstr ""
+msgstr "Parámetro: Valor inicial"
 
 #: translation.js:228
 msgid "Input data"
-msgstr ""
+msgstr "Datos de entrada"
 
 #: translation.js:229
 msgid ""
@@ -1138,10 +1163,13 @@ msgid ""
 "* 0: OFF\n"
 "* 1: ON"
 msgstr ""
+"Pull-up interno  \n"
+"* 0: Apagado\n"
+"* 1: Activado"
 
 #: translation.js:231
 msgid "Synchronization stage"
-msgstr ""
+msgstr "Etapa de sincronización"
 
 #: translation.js:232
 msgid ""
@@ -1150,6 +1178,10 @@ msgid ""
 "* 0: Wire\n"
 "* 1: signal inverted"
 msgstr ""
+"Etapa de normalización\n"
+"\n"
+"* 0: Cable\n"
+"* 1: Señal invertida"
 
 #: translation.js:233
 msgid "Debouncing stage"
@@ -1164,6 +1196,8 @@ msgid ""
 "Whenever there is a change in  \n"
 "the input, the counter is started"
 msgstr ""
+"En cuanto hay un cambio en  \n"
+"la entrada, el contador se arranca"
 
 #: translation.js:236
 msgid ""
@@ -1171,6 +1205,9 @@ msgid ""
 "value, the input is considered stable  \n"
 "and it is captured"
 msgstr ""
+"Si el contador alcanza su máximo  \n"
+"valor, la entrada se considera estable  \n"
+"y se captura"
 
 #: translation.js:237
 msgid ""
@@ -1206,7 +1243,7 @@ msgstr ""
 
 #: translation.js:239
 msgid "Stable output"
-msgstr ""
+msgstr "Salida estable"
 
 #: translation.js:240
 msgid "Counter"
@@ -1214,13 +1251,15 @@ msgstr "Contador"
 
 #: translation.js:241
 msgid "Initial value"
-msgstr ""
+msgstr "Valor inicial"
 
 #: translation.js:242
 msgid ""
 "Reset input: Active high  \n"
 "When rst = 1, the DFF is reset to 0"
 msgstr ""
+"Entrada de reset: Activa a nivel alto  \n"
+"Cuando rst = 1, el biestable D se inicializa a 0"
 
 #: translation.js:243
 msgid "Data input"
@@ -1231,6 +1270,8 @@ msgid ""
 "Initial default  \n"
 "value: 0"
 msgstr ""
+"Valor inicial por  \n"
+"defecto: 0"
 
 #: translation.js:245
 msgid ""
@@ -1252,10 +1293,13 @@ msgid ""
 "previous 0, or if the current value is 0 and the  \n"
 "previous 1\n"
 msgstr ""
+"La salida es 1 si el valor actual es 1 y el  \n"
+"anterior 0, o si el valor actual es 0 y el  \n"
+"anterior 1\n"
 
 #: translation.js:247
 msgid "In any other case the output is 0"
-msgstr ""
+msgstr "En cualquier otro caso la salida es 0"
 
 #: translation.js:248
 msgid ""
@@ -1264,6 +1308,10 @@ msgid ""
 "When k=1, it act as a not gate\n"
 "(The output is the inverse of the input)"
 msgstr ""
+"Cuando k=0, funciona como un cable  \n"
+"(La salida es igual a la entrada)  \n"
+"Cuando k=1, se comporta como una puerta NOT\n"
+"(La salida es la inversa de la entrada)"
 
 #: translation.js:249
 msgid ""
@@ -1287,7 +1335,7 @@ msgstr ""
 
 #: translation.js:250
 msgid "Mux 2-1"
-msgstr ""
+msgstr "Mux-2-1"
 
 #: translation.js:251
 msgid ""
@@ -1321,11 +1369,11 @@ msgstr "05-Codificador-8-3-con-botones-LEDs"
 
 #: translation.js:258
 msgid "SReg-right-x8: 8 bits Shift register (to the right)"
-msgstr ""
+msgstr "SReg-right-x8: Registro de desplazamiento de 8 bits (A la derecha)"
 
 #: translation.js:259
 msgid "SReg-right-x4: 4 bits Shift register (to the right)"
-msgstr ""
+msgstr "SReg-right-x4: Registro de desplazamiento de 4 bits (A la derecha)"
 
 #: translation.js:260
 msgid ""
@@ -1435,7 +1483,7 @@ msgstr "Counter-x03: Contador de 3 bits"
 
 #: translation.js:283
 msgid "Reg-x03: 3-bits register"
-msgstr ""
+msgstr "Reg-x03: Registro de 3 bits"
 
 #: translation.js:284
 msgid "Bus3-Split-all: Split the 3-bits bus into three wires"
@@ -1443,7 +1491,7 @@ msgstr "Bus3-Split-all:  Dividir el bus de 3-bits en tres cables"
 
 #: translation.js:285
 msgid "Inc1-3bit: Increment a 3-bits number by one"
-msgstr ""
+msgstr "Inc1-3bit: Incrementar un número de 3 bits en uno"
 
 #: translation.js:286
 msgid "AdderK-3bit: Adder of 3-bit operand and 3-bit constant"
@@ -1451,7 +1499,7 @@ msgstr "AdderK-3bit: Sumador de un operando y una constante de 3 bits"
 
 #: translation.js:287
 msgid "Generic: 3-bits generic constant (0-7)"
-msgstr ""
+msgstr "Generic: Constante genérica de 3-bits (0-7)"
 
 #: translation.js:288
 msgid "Adder-3bits: Adder of two operands of 3 bits"
@@ -1692,7 +1740,7 @@ msgstr ""
 
 #: translation.js:359
 msgid "Output: Encoded number"
-msgstr ""
+msgstr "Salida: Número codificado"
 
 #: translation.js:363
 msgid ""
@@ -1726,11 +1774,11 @@ msgstr ""
 
 #: translation.js:374
 msgid "OR-Op8: Or operation between two numbers of 8 bits"
-msgstr ""
+msgstr "OR-Op8: Operación OR entre dos números de 8 bits"
 
 #: translation.js:375
 msgid "Or-Op4: Or operation between two numbers of 4 bits"
-msgstr ""
+msgstr "Or-Op4: Operación OR entre dos números de 4 bits"
 
 #: translation.js:376
 msgid "Bus4-Split-half: Split the 4-bits bus into two of the same size"
@@ -1743,7 +1791,7 @@ msgstr "Bus4-Join-half: Agrupar los dos buses en uno de 4-bits"
 
 #: translation.js:378
 msgid "OR-Op2: Or operation between two numbers of 2 bits"
-msgstr ""
+msgstr "OR-Op2: Operación OR entre dos números de 2-bits"
 
 #: translation.js:379
 msgid "Copy-8: Copy the input wire and creates a 8 bits Bus output"
@@ -1801,14 +1849,17 @@ msgid ""
 "when all its inputs are  \n"
 "1s"
 msgstr ""
+"El codificador se deshabilita  \n"
+"cuando todas sus entradas  \n"
+"están a 1"
 
 #: translation.js:386
 msgid "Operand 1"
-msgstr ""
+msgstr "Operando 1"
 
 #: translation.js:387
 msgid "Operand 2"
-msgstr ""
+msgstr "Operando 2"
 
 #: translation.js:389
 msgid ""
