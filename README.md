@@ -77,30 +77,42 @@ For installing and using this colection in Icestudio follow these steps:
     * 01-Enconder-2-1-buttons-LEDs
   * **Nandland-go-board**
     * 01-Enconder-2-1-buttons-LEDs
+  * **ULX3S-12F**
+    * 01-Enconder-2-1-buttons-LEDs
 * **02-Encoder-2-1-Bus-neg**
   * **Alhambra-II**
     * 02-Encoder-2-1-Bus-neg-with-buttons-LEDs
   * **Nandland-go-board**
+    * 02-Encoder-2-1-Bus-neg-with-buttons-LEDs
+  * **ULX3S-12F**
     * 02-Encoder-2-1-Bus-neg-with-buttons-LEDs
 * **03-Encoder-4-2**
   * **Alhambra-II**
     * 03-Encoder-2-4-with-buttons-LEDs
   * **Nandland-go-board**
     * 03-Encoder-2-4-with-buttons-LEDs
+  * **ULX3S-12F**
+    * 03-Encoder-2-4-with-buttons-LEDs
 * **04-Encoder-4-2-Bus-neg**
   * **Alhambra-II**
     * 04-Encoder-4-2-with-buttons-LEDs
   * **Nandland-go-board**
+    * 04-Encoder-4-2-with-buttons-LEDs
+  * **ULX3S-12F**
     * 04-Encoder-4-2-with-buttons-LEDs
 * **05-Encoder-8-3**
   * **Alhambra-II**
     * 05-Encoder-8-3-with-buttons-LEDs
   * **Nandland-go-board**
     * 05-Encoder-8-3-with-buttons-LEDs
+  * **ULX3S-12F**
+    * 05-Encoder-8-3-with-buttons-LEDs
 * **06-Encoder-8-3-Bus-neg**
   * **Alhambra-II**
-    * 05-Encoder-8-3-with-buttons-LEDs
+    * 06-Encoder-8-3-with-buttons-LEDs
   * **Nandland-go-board**
+    * 06-Encoder-8-3-with-buttons-LEDs
+  * **ULX3S-12F**
     * 06-Encoder-8-3-with-buttons-LEDs
 * **07-Decoder-1-2**
   * **Alhambra-II**
