@@ -81,6 +81,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 01-Enconder-2-1-buttons-LEDs
   * **iCEBreaker**
     * 01-Enconder-2-1-buttons-LEDs
+  * **iCESugar-1.5**
+    * 01-Enconder-2-1-buttons-LEDs
 * **02-Encoder-2-1-Bus-neg**
   * **Alhambra-II**
     * 02-Encoder-2-1-Bus-neg-with-buttons-LEDs
@@ -89,6 +91,8 @@ For installing and using this colection in Icestudio follow these steps:
   * **ULX3S-12F**
     * 02-Encoder-2-1-Bus-neg-with-buttons-LEDs
   * **iCEBreaker**
+    * 02-Encoder-2-1-Bus-neg-with-buttons-LEDs
+  * **iCESugar-1.5**
     * 02-Encoder-2-1-Bus-neg-with-buttons-LEDs
 * **03-Encoder-4-2**
   * **Alhambra-II**
@@ -99,6 +103,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 03-Encoder-2-4-with-buttons-LEDs
   * **iCEBreaker**
     * 03-Encoder-2-4-with-buttons-LEDs
+  * **iCESugar-1.5**
+    * 03-Encoder-2-4-with-buttons-LEDs
 * **04-Encoder-4-2-Bus-neg**
   * **Alhambra-II**
     * 04-Encoder-4-2-with-buttons-LEDs
@@ -107,6 +113,8 @@ For installing and using this colection in Icestudio follow these steps:
   * **ULX3S-12F**
     * 04-Encoder-4-2-with-buttons-LEDs
   * **iCEBreaker**
+    * 04-Encoder-4-2-with-buttons-LEDs
+  * **iCESugar-1.5**
     * 04-Encoder-4-2-with-buttons-LEDs
 * **05-Encoder-8-3**
   * **Alhambra-II**
@@ -117,6 +125,8 @@ For installing and using this colection in Icestudio follow these steps:
     * 05-Encoder-8-3-with-buttons-LEDs
   * **iCEBreaker**
     * 05-Encoder-8-3-with-buttons-LEDs
+  * **iCESugar-1.5**
+    * 05-Encoder-8-3-with-buttons-LEDs
 * **06-Encoder-8-3-Bus-neg**
   * **Alhambra-II**
     * 06-Encoder-8-3-with-buttons-LEDs
@@ -125,6 +135,8 @@ For installing and using this colection in Icestudio follow these steps:
   * **ULX3S-12F**
     * 06-Encoder-8-3-with-buttons-LEDs
   * **iCEBreaker**
+    * 06-Encoder-8-3-with-buttons-LEDs
+  * **iCESugar-1.5**
     * 06-Encoder-8-3-with-buttons-LEDs
 * **07-Decoder-1-2**
   * **Alhambra-II**
