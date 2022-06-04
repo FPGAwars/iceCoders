@@ -133,12 +133,16 @@ For installing and using this colection in Icestudio follow these steps:
     * 07-Decoder-1-2-button-LED
   * **ULX3S-12F**
     * 07-Decoder-1-2-button-LED
+  * **iCEBreaker**
+    * 07-Decoder-1-2-button-LED
 * **08-Decoder-1-2-Bus-neg**
   * **Alhambra-II**
     * 08-Decoder-1-2-Bus-neg-button-LED
   * **Nandland-go-board**
     * 08-Decoder-1-2-Bus-neg-button-LED
   * **ULX3S-12F**
+    * 08-Decoder-1-2-Bus-neg-button-LED
+  * **iCEBreaker**
     * 08-Decoder-1-2-Bus-neg-button-LED
 * **09-Decoder-2-4**
   * **Alhambra-II**
@@ -147,12 +151,16 @@ For installing and using this colection in Icestudio follow these steps:
     * 09-Decoder-2-4-button-LEDs
   * **ULX3S-12F**
     * 09-Decoder-2-4-button-LEDs
+  * **iCEBreaker**
+    * 09-Decoder-2-4-button-LEDs
 * **10-Decoder-2-4-Bus-neg**
   * **Alhambra-II**
     * 10-Decoder-2-4-Bus-neg-buttons-LEDs
   * **Nandland-go-board**
     * 10-Decoder-2-4-Bus-neg-buttons-LEDs
   * **ULX3S-12F**
+    * 10-Decoder-2-4-Bus-neg-buttons-LEDs
+  * **iCEBreaker**
     * 10-Decoder-2-4-Bus-neg-buttons-LEDs
 * **11-Decoder-3-8**
   * **Alhambra-II**
@@ -161,10 +169,14 @@ For installing and using this colection in Icestudio follow these steps:
     * 11-Decoder-3-8-button-LEDs
   * **ULX3S-12F**
     * 11-Decoder-3-8-button-LEDs
+  * **iCEBreaker**
+    * 11-Decoder-3-8-button-LEDs
 * **12-Decoder-3-8**
   * **Alhambra-II**
     * 12-Decoder-3-8-bus-neg-buttons-LEDs
   * **Nandland-go-board**
+    * 12-Decoder-3-8-bus-neg-buttons-LEDs
+  * **iCEBreaker**
     * 12-Decoder-3-8-bus-neg-buttons-LEDs
 * **TESTs**
   * **Decoders**
