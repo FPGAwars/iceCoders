@@ -756,25 +756,25 @@ msgstr "Alhambra-II"
 #: translation.js:289 translation.js:304 translation.js:316 translation.js:327
 #: translation.js:338 translation.js:349 translation.js:361 translation.js:381
 msgid "Nandland-go-board"
-msgstr ""
+msgstr "Nandland-go-board"
 
 #: translation.js:159 translation.js:175 translation.js:195 translation.js:278
 #: translation.js:290 translation.js:305 translation.js:317 translation.js:328
 #: translation.js:339 translation.js:350 translation.js:362
 msgid "ULX3S-12F"
-msgstr ""
+msgstr "ULX3S-12F"
 
 #: translation.js:160 translation.js:176 translation.js:196 translation.js:279
 #: translation.js:291 translation.js:306 translation.js:318 translation.js:329
 #: translation.js:340 translation.js:351 translation.js:363 translation.js:382
 msgid "iCEBreaker"
-msgstr ""
+msgstr "iCEBreaker"
 
 #: translation.js:161 translation.js:177 translation.js:197 translation.js:280
 #: translation.js:292 translation.js:307 translation.js:319 translation.js:330
 #: translation.js:341 translation.js:352 translation.js:364 translation.js:383
 msgid "iCESugar-1.5"
-msgstr ""
+msgstr "iCESugar-1.5"
 
 #: translation.js:162 translation.js:169 translation.js:170 translation.js:171
 #: translation.js:172
@@ -1430,9 +1430,8 @@ msgstr "Registro de desplazamiento de 8 bits"
 
 #: translation.js:308 translation.js:311 translation.js:312 translation.js:313
 #: translation.js:314
-#, fuzzy
 msgid "06-Encoder-8-3-with-buttons-LEDs"
-msgstr "05-Codificador-8-3-con-botones-LEDs"
+msgstr "06-Codificador-8-3-con-botones-LEDs"
 
 #: translation.js:309
 msgid "8 FPGA internal pull-ups"
