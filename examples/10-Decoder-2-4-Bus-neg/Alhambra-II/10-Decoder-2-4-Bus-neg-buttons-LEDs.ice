@@ -8,7 +8,7 @@
     "image": ""
   },
   "design": {
-    "board": "ulx3s-12f",
+    "board": "alhambra-ii",
     "graph": {
       "blocks": [
         {
@@ -20,23 +20,23 @@
             "pins": [
               {
                 "index": "3",
-                "name": "led_3",
-                "value": "D2"
+                "name": "LED3",
+                "value": "42"
               },
               {
                 "index": "2",
-                "name": "led_2",
-                "value": "C1"
+                "name": "LED2",
+                "value": "43"
               },
               {
                 "index": "1",
-                "name": "led_1",
-                "value": "C2"
+                "name": "LED1",
+                "value": "44"
               },
               {
                 "index": "0",
-                "name": "led_0",
-                "value": "B2"
+                "name": "LED0",
+                "value": "45"
               }
             ],
             "virtual": false
@@ -55,13 +55,13 @@
             "pins": [
               {
                 "index": "1",
-                "name": "btn_2",
-                "value": "T1"
+                "name": "SW2",
+                "value": "33"
               },
               {
                 "index": "0",
-                "name": "btn_1",
-                "value": "R1"
+                "name": "SW1",
+                "value": "34"
               }
             ],
             "virtual": false,
